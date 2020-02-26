@@ -1,1 +1,1 @@
-# meta-cgiar-csi-2020
+# cgiar-csi-2020
