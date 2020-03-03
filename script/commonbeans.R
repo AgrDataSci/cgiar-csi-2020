@@ -4,25 +4,31 @@
 ## Kauê de Sousa
 ### Inland Norway University
 ### Bioversity International
+
+
 # ..........................................................
 # ..........................................................
 # Packages ####
-library("readr")
+library("devtools")
+# install_github("agrobioinfoservices/gosset", upgrade = "never")
+library("gosset")
 library("PlackettLuce")
 library("qvcalc")
-library("gosset")
 library("ggplot2")
 library("abind")
 library("foreach")
 library("doParallel")
-source("script/functions.R")
+source(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
+              "cgiar-csi-2020/master/script/functions.R"))
 
 
 # ........................................................
 # ........................................................
 # Read data ####
-dt <- read_csv("data/commonbeans_tricot.csv")
-
+# dt <- read.csv("data/commonbeans_tricot.csv", stringsAsFactors = FALSE)
+dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
+                      "cgiar-csi-2020/master/data/commonbeans_tricot.csv"),
+               stringsAsFactors = FALSE)
 head(dt)
 tail(dt)
 
@@ -55,12 +61,6 @@ network(R, vertex.size = 30)
 # higher values indicates higher dominance of Player1 over Player2
 dom <- summarise_dominance(R)
 plot(dom)
-
-# summarise_victories shows the proportion of time each item wons against the others 
-# Inta Fuerte Sequia and INTA Centro Sur are the items with most proportional
-# victories
-vict <- summarise_victories(R)
-plot(vict)
 
 # summarise_favorite shows the proportion of times the item was most or least 
 # favourite. 
@@ -154,7 +154,7 @@ pkgs <- "PlackettLuce"
 # goodness-of-fit to select by
 gof <- "deviance"
 # number of cores
-ncor <- 10
+ncor <- abs(detectCores() / 2)
 
 # PlackettLuce flavours passed to ...
 # type ?PlackettLuce for details
@@ -167,6 +167,7 @@ a <- 0.01
 # pseudo rankings 
 pr <- 1.5
 
+b <- Sys.time()
 # and then the forward stepwise selection
 f <- forward(G ~ ., 
              data = dat,
@@ -179,7 +180,8 @@ f <- forward(G ~ .,
              bonferroni = bonf,
              alpha = a,
              npseudo = pr)
-
+e <- Sys.time()
+print(e-b)
 # these are the cross-validation estimates from the forward selection
 print(f)
 
@@ -189,14 +191,16 @@ model <- as.formula(f$raw$call)
 # Lets fit a PlackettLuce tree with this model
 plt <- pltree(model,
               data = dat,
-              minsize = minsize,
-              npseudo = npseudo,
-              bonferroni = bonferroni,
-              alpha = alpha)
+              minsize = mins,
+              npseudo = pr,
+              bonferroni = bonf,
+              alpha = a)
 
 summary(plt)
 
-plot(plt)
+predict(plt)
+
+coef(plt, log = FALSE)
 
 # we can also plot the nodes with error bars using 
 # gosset::plot_nodes()

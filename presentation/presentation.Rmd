@@ -136,7 +136,7 @@ class: middle, inverse
 
 --
 
-(**C**) Model selection to find the variables that best explain the data
+(**C**) Model selection to find the variables that best explain the data forward with cross-validation
 
 --
 
@@ -148,8 +148,16 @@ class: middle, inverse
 
 ---
 class: middle
+<img src="img/from-tree-to-map.png" width="100%" style="float:left"/>
+
+---
+class: middle
 # R packages that we developed to support this workflow:
-<img src="img/PlackettLuce.png" width="10%" style="float:left"/>&nbsp; <img src="img/gosset.png" width="10%" style="float:left"/>&nbsp; <img src="img/climmobtools.png" width="10%" style="float:left"/>&nbsp; <img src="img/chirps.png" width="10%" style="float:left"/>&nbsp; <img src="img/climatrends.png" width="10%" style="float:left"/>&nbsp; 
+[<img src="img/PlackettLuce.png" width="10%" style="float:left"/>](https://CRAN.R-project.org/package=PlackettLuce)
+[<img src="img/gosset.png" width="10%" style="float:left"/>](https://agrobioinfoservices.github.io/gosset/)
+[<img src="img/climmobtools.png" width="10%" style="float:left"/>](https://CRAN.R-project.org/package=ClimMobTools)
+[<img src="img/chirps.png" width="10%" style="float:left"/>](https://agrobioinfoservices.github.io/chirps/)
+[<img src="img/climatrends.png" width="10%" style="float:left"/>](https://CRAN.R-project.org/package=climatrends)
 
 ---
 
@@ -157,67 +165,22 @@ class: middle, inverse
 # Now to the hands-on part!
 
 ---
-
-class: middle
 # Common beans in Niragua with the *tricot* method
 
----
-# We are going to use these packages
-```{r, echo=TRUE, message=FALSE}
-library("readr")
-library("PlackettLuce")
-library("qvcalc")
-library("gosset")
-library("ggplot2")
-library("abind")
-library("foreach")
-library("doParallel")
-source("script/functions.R")
+* 842 data points
+
+* 10 varieties + Local
+
+* 5 seasons
+
+* Temperature data derived from MODIS (MYD11A1)
+
+* Precipitation data derived from CHIRPS 
+
+```{r beans, eval=FALSE, message=FALSE, echo=TRUE}
+"script/commonbeans.R"
 ```
 
----
-# This is how the beans data looks like
-
-```{r, echo=TRUE, message=FALSE}
-dt <- read_csv("data/commonbeans_tricot.csv")
-```
-
-```{r, echo=TRUE, message=TRUE}
-head(dt)
-```
-
----
-
-842 plot trials in 5 seasons
-
-```{r, echo=TRUE, message=TRUE,fig.align='center'}
-plot_map(dt, c("lon","lat"), map.types = "OpenTopoMap")
-```
-
----
-with 10 common bean varieties
-```{r, echo=TRUE, message=TRUE}
-unique(unlist(dt[, paste0("variety_", letters[1:3])]))
-```
-
----
-Coerce into rankings using `gosset::rank_tricot()`
-
-```{r, echo=TRUE, message=TRUE}
-R <- rank_tricot(data = dt,
-                 items = paste0("variety_", letters[1:3]),
-                 input = c("best","worst"))
-              
-
-head(R)
-```
-
----
-We can check how these items (varieties are connected) even with partial rankings, we can see that all varieties connect together. This is due to the controlled randomisation performed in `ClimMobTools::randomise()`, when a tricot project is set up
-
-```{r, echo=TRUE, message=TRUE}
-network(R, vertex.size = 30)
-```
 ---
 # **Thank you!**
 .pull-left[
