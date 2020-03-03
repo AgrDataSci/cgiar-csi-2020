@@ -24,14 +24,18 @@ source(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
 # ........................................................
 # ........................................................
 # Read data ####
-dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
-                      "cgiar-csi-2020/master/data/wheat.R"),
-               stringsAsFactors = FALSE)
-
+# dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
+#                       "cgiar-csi-2020/master/data/wheat_pvs.csv"),
+#                stringsAsFactors = FALSE)
+dt <- read.csv("data/wheat_pvs.csv", stringsAsFactors = F)
 head(dt)
 tail(dt)
 
-# 255 points across India
+
+
+
+# 255 points across northern India
+length(unique(dt$id))
 plot_map(dt, c("lon","lat"), map.types = "OpenTopoMap")
 
 # with 31 bread wheat varieties
@@ -58,7 +62,6 @@ head(R)
 # Let's check the network
 network(R, vertex.size = 15)
 
-# seems that PBW621(DBW62150) is a bit out of the network
 # Let's check for its adjacency 
 adjacency(R)
 
@@ -84,10 +87,10 @@ plot(fav)
 # PlackettLuce model ####
 # Now lets fit a simple Plackett-Luce model with the rankings object
 mod <- PlackettLuce(R)
-summary(mod)
-  sum(coef(mod, log = F))
-plot(qvcalc(mod))
 
+summary(mod)
+
+plot(qvcalc(mod))
 
 # .......................................................
 # .......................................................
@@ -106,6 +109,8 @@ geoinput <- geoinput[!duplicated(geoinput$id), ]
 temp <- temperature(geoinput[,c("lon","lat")],
                     day.one = geoinput$planting_date,
                     span = geoinput$ts)
+
+temp <- read.csv("data/temperature.csv")
 
 # # geographic and time boundaries are too large for NASAPOWER
 # s <- ifelse(geoinput$lon < 80, 1, 2)
@@ -131,9 +136,11 @@ temp <- temperature(geoinput[,c("lon","lat")],
 # 
 # names(temp) <- names(tp)
 # 
-# temp <- temp[, -match(c("TR","CFD"), names(temp))]
 
 geoinput <- cbind(geoinput, temp)
+
+
+geoinput <- geoinput[, -match(c("id","ts","TR","CFD"), names(geoinput))]
 
 
 G <- group(R, 1:length(R))
@@ -141,6 +148,11 @@ G <- group(R, 1:length(R))
 
 dat <- cbind(G, geoinput)
 
+plot(density(dat$maxDT))
+boxplot(dat$maxDT)
+
+plot(density(dat$maxNT))
+boxplot(dat$maxNT)
 
 # .......................................................
 # .......................................................
@@ -158,7 +170,8 @@ dat <- cbind(G, geoinput)
 # n rows in dat
 n <- dim(dat)[[1]]
 # folds based on the season
-seasons <- as.integer(as.factor(dat$season))
+seasons <- as.integer(as.factor(dat$year))
+table(seasons)
 # number of folds
 nk <- max(seasons)
 # packages to export to parallels
@@ -175,7 +188,7 @@ mins <- round((n*0.3), -1)
 # bonferroni correction
 bonf <- TRUE
 # the significance level for spliting the data into nodes
-a <- 0.01
+a <- 0.1
 # pseudo rankings 
 pr <- 1.5
 
