@@ -31,7 +31,7 @@ options(htmltools.dir.version = FALSE)
 * A case study with tricot (*triadic comparison of technologies*)
 
 --
-* A case study with meta-analysis 
+* Two case study with meta-analysis 
 
 ---
 # What is machine learning?
@@ -176,9 +176,32 @@ class: middle, inverse
 
 * Precipitation data derived from CHIRPS 
 
-```{r beans, eval=FALSE, message=FALSE, echo=TRUE}
-"script/commonbeans.R"
-```
+---
+# Bread wheat in India
+
+* 255 data points
+
+* 18 varieties
+
+* 4 seasons (rabi)
+
+* Grain yield
+
+---
+# Impact investment
+
+* 865 observations
+
+* 7 investment options
+
+* Socio-economic variables
+
+---
+# Final remarks
+
+* Pairwise comparisons with `bt_permute()`
+
+* Implementations of GLM and GNM 
 
 ---
 # **Thank you!**

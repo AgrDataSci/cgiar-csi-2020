@@ -37,7 +37,7 @@ tail(dt)
 length(unique(dt$id))
 plot_map(dt, c("lon","lat"), map.types = "OpenTopoMap")
 
-# with 14 bread wheat varieties
+# with 18 bread wheat varieties
 length(unique(dt$variety))
 unique(dt$variety)
 

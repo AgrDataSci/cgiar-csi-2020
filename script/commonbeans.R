@@ -152,7 +152,7 @@ pkgs <- "PlackettLuce"
 # goodness-of-fit to select by
 gof <- "deviance"
 # number of cores
-ncor <- abs(detectCores() / 2)
+ncor <- 2
 
 # PlackettLuce flavours passed to ...
 # type ?PlackettLuce for details
@@ -178,8 +178,11 @@ f <- forward(G ~ .,
              bonferroni = bonf,
              alpha = a,
              npseudo = pr)
+
 e <- Sys.time()
+
 print(e-b)
+
 # these are the cross-validation estimates from the forward selection
 print(f)
 

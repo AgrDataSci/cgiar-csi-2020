@@ -20,20 +20,14 @@ library("doParallel")
 source(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
               "cgiar-csi-2020/master/script/functions.R"))
 
-
-
 # ........................................................
 # ........................................................
 # Read data ####
 dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
-                      "cgiar-csi-2020/master/data/impact_invest.csv"),
-               stringsAsFactors = FALSE)
+                      "cgiar-csi-2020/master/data/impact_invest.csv"))
 
 head(dt)
-
-names(dt)
-
-
+str(dt)
 
 # get rankings in a different dataframe
 options <- grepl("rank_", names(dt))
@@ -41,22 +35,11 @@ options <- grepl("rank_", names(dt))
 R <- dt[options]
 names(R) <- gsub("rank_","",names(R))
 
-R
+head(R)
 
-# also explanatory vars
-exp_var <- mydata[exp_var]
-
-# put characters as factor
-exp_var[2:9] <- lapply(exp_var[2:9], function(X){
-  as.factor(as.character(X))
-})
-
-# check for missing data in these two dataframes 
-sum(is.na(R))
-sum(is.na(exp_var))
-
-# refresh item names 
 items <- names(R)
+
+n <- dim(R)[[1]]
 
 # convert rankings into a matrix and a PlackettLuce object of class 'rankings'
 R <- as.matrix(R, dimnames = list(1:n, items))
@@ -70,10 +53,12 @@ R <- PlackettLuce::as.rankings(R, ncol = length(items), byrow = TRUE)
 G <- group(R, index = 1:n)
 
 # combine grouped rankings with explanatory variables
-input <- cbind(G, exp_var)
+input <- cbind(G, dt[, !options])
+
+head(input)
 
 # define model parameters
-a <- 0.1 # alpha
+a <- 0.1 
 minsize <- 20 
 
 mod <- forward(G ~ .,
@@ -88,21 +73,12 @@ mod <- forward(G ~ .,
 mod
 
 
-
 plt <- pltree(as.formula(mod$raw$call), 
               data = input,
               alpha = a,
-              minsize = 20)
+              minsize = minsize)
 
 plt
-
-plot(plt, abbr = 3)
-
-d <- summarise_dominance(R)
-plot(d)
-
-f <- summarise_favorite(R)
-plot(f)
 
 plot(plt)
 
