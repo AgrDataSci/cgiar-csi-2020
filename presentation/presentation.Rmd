@@ -10,6 +10,9 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
+# output:
+#   powerpoint_presentation:
+#     reference_doc: "templates/ppt_template.pptx"
 ---
 
 ```{r setup, include=FALSE}
@@ -37,6 +40,10 @@ options(htmltools.dir.version = FALSE)
 --
 
 * Meta-analysis on social impact investments 
+
+--
+
+* Q&A
 
 ---
 # What is machine learning?

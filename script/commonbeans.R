@@ -165,23 +165,25 @@ a <- 0.01
 # pseudo rankings 
 pr <- 1.5
 
-b <- Sys.time()
-# and then the forward stepwise selection
-f <- forward(G ~ ., 
-             data = dat,
-             k = nk,
-             folds = seasons,
-             select.by = gof,
-             ncores = ncor, 
-             packages = pkgs,
-             minsize = mins,
-             bonferroni = bonf,
-             alpha = a,
-             npseudo = pr)
+# b <- Sys.time()
+# # and then the forward stepwise selection
+# f <- forward(G ~ ., 
+#              data = dat,
+#              k = nk,
+#              folds = seasons,
+#              select.by = gof,
+#              ncores = ncor, 
+#              packages = pkgs,
+#              minsize = mins,
+#              bonferroni = bonf,
+#              alpha = a,
+#              npseudo = pr)
+# 
+# e <- Sys.time()
+# 
+# print(e-b)
 
-e <- Sys.time()
 
-print(e-b)
 
 # these are the cross-validation estimates from the forward selection
 print(f)
