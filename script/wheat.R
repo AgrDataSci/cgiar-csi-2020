@@ -11,10 +11,12 @@
 library("devtools")
 # install_github("agrobioinfoservices/gosset", upgrade = "never")
 library("gosset")
+library("nasapower")
 library("climatrends")
 library("PlackettLuce")
 library("qvcalc")
 library("ggplot2")
+library("tidyr")
 library("abind")
 library("foreach")
 library("doParallel")
@@ -24,23 +26,21 @@ source(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
 # ........................................................
 # ........................................................
 # Read data ####
-# dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
+#dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
 #                       "cgiar-csi-2020/master/data/wheat_pvs.csv"),
-#                stringsAsFactors = FALSE)
-dt <- read.csv("data/wheat_pvs.csv", stringsAsFactors = F)
+#               stringsAsFactors = FALSE)
+dt <- read.csv("data/wheat_pvs.csv", stringsAsFactors = FALSE)
+
 head(dt)
 tail(dt)
-
-
-
 
 # 255 points across northern India
 length(unique(dt$id))
 plot_map(dt, c("lon","lat"), map.types = "OpenTopoMap")
 
-# with 31 bread wheat varieties
+# with 14 bread wheat varieties
+length(unique(dt$variety))
 unique(dt$variety)
-
 
 # here we are going to use the yield data,
 # lets see how it is distributed
@@ -103,56 +103,65 @@ dt$ts <- as.integer(dt$flowering50perc_date - dt$planting_date)
 
 geoinput <- dt[,c("id","lon","lat","planting_date","year","ts")]
 
-geoinput <- geoinput[!duplicated(geoinput$id), ]
 
+geoinput <- geoinput[!duplicated(geoinput$id), ]
 
 temp <- temperature(geoinput[,c("lon","lat")],
                     day.one = geoinput$planting_date,
                     span = geoinput$ts)
 
-temp <- read.csv("data/temperature.csv")
-
+plot_map(geoinput, c("lon", "lat"))
 # # geographic and time boundaries are too large for NASAPOWER
 # s <- ifelse(geoinput$lon < 80, 1, 2)
 # s <- as.integer(as.factor(paste0(s, geoinput$year)))
 # 
 # k <- unique(s)
 # 
-# temp <- as.data.frame(matrix(NA, 
+# temp <- as.data.frame(matrix(NA,
 #                              ncol = 8,
 #                              nrow = nrow(geoinput)))
 # 
 # for (i in seq_along(k)) {
 #   print(i)
 #   g_i <- geoinput[s == k[i], ]
-#   
+# 
 #   tp <- temperature(g_i[, c("lon","lat")],
 #                     day.one = g_i$planting_date,
 #                     span = g_i$ts)
-#   
+# 
 #   temp[s == k[i], ] <- tp
-#     
+# 
 # }
-# 
+# temp
 # names(temp) <- names(tp)
-# 
 
+temp <- read.csv("data/temperature.csv")
+
+# Let's see the distribution of these variables
+# first we put it in a long format
+exp <- temp
+exp$i <- rownames(exp)
+exp <- pivot_longer(exp, -i, names_to = "index", values_to = "value")
+
+exp
+
+# and plot it using the density plot
+ggplot(exp) +
+  geom_density(aes(x = value)) +
+  facet_wrap(~ index, scales = "free")
+
+# combine variables with the geo
 geoinput <- cbind(geoinput, temp)
 
-
+# we remove some columns that will not be used 
 geoinput <- geoinput[, -match(c("id","ts","TR","CFD"), names(geoinput))]
 
 
 G <- group(R, 1:length(R))
 
-
 dat <- cbind(G, geoinput)
 
-plot(density(dat$maxDT))
-boxplot(dat$maxDT)
-
-plot(density(dat$maxNT))
-boxplot(dat$maxNT)
+head(dat)
 
 # .......................................................
 # .......................................................
@@ -184,7 +193,7 @@ ncor <- abs(detectCores() / 2)
 # PlackettLuce flavours passed to ...
 # type ?PlackettLuce for details
 # minimum size of each node 
-mins <- round((n*0.3), -1)
+mins <- round((n*0.2), -1)
 # bonferroni correction
 bonf <- TRUE
 # the significance level for spliting the data into nodes
@@ -192,15 +201,27 @@ a <- 0.1
 # pseudo rankings 
 pr <- 1.5
 
-# and then the forward stepwise selection
-f <- forward(G ~ ., 
-             data = dat,
-             k = nk,
-             folds = seasons,
-             select.by = gof,
-             ncores = ncor, 
-             packages = pkgs,
-             minsize = mins,
-             bonferroni = bonf,
-             alpha = a,
-             npseudo = pr)
+# # # and then the forward stepwise selection
+# # f <- forward(G ~ .,
+# #              data = dat,
+# #              k = nk,
+# #              folds = seansons,
+# #              select.by = gof,
+# #              ncores = ncor,
+# #              packages = pkgs,
+# #              minsize = mins,
+# #              alpha = a)
+
+
+plt <- pltree(G ~ minDT + minNT, 
+              data = dat, 
+              minsize = mins,
+              alpha = a)
+
+plot(plt)
+
+coef(plt, log = F)
+
+worst_regret(plt)
+
+plot_nodes(plt)

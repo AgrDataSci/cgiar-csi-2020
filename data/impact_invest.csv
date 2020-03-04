@@ -1,0 +1,866 @@
+rank_SIByoung,rank_SIBhealth,rank_SIBschool,rank_SP,rank_FD,rank_Corp,rank_BBC,age,savings,gender,income,sector,region,donations,education,foreign
+5,3,2,1,7,4,6,28,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+5,4,6,7,1,2,3,27,1250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,Yes
+1,7,2,3,4,6,5,24,0,Woman,Low,Students,Global South,No,Bachelor,Yes
+2,3,1,4,6,5,7,30,1250.5,Woman,Medium,Quaternary sector,Not available,Yes,Master,No
+2,3,1,4,6,5,7,23,0,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,Yes
+4,1,5,2,6,3,7,32,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,Yes
+3,2,1,4,6,5,7,23,250.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+1,3,2,4,5,7,6,35,0,Man,Medium,Primary sector,Not available,No,High School,No
+4,6,2,7,1,3,5,26,3500.5,Woman,Medium,Secondary sector,Global South,Yes,Master,Yes
+7,6,4,3,1,2,5,30,250.5,Man,Low,Quaternary sector,Global South,No,Bachelor,Yes
+5,7,6,1,2,4,3,27,0,Man,Low,Quaternary sector,Global South,Yes,Bachelor,Yes
+2,1,3,4,7,6,5,30,3500.5,Man,Low,Students,Global South,No,Bachelor,Yes
+3,6,5,1,2,4,7,31,0,Man,Medium,Quaternary sector,Global North,No,Master,No
+6,4,5,7,2,3,1,29,5000,Man,High,Secondary sector,Global South,No,Bachelor,Yes
+4,2,3,1,5,6,7,29,5000,Woman,Medium,Quaternary sector,Global North,No,PhD,No
+4,3,2,7,5,1,6,31,3500.5,Man,Medium,Quaternary sector,Not available,No,Bachelor,No
+6,2,1,3,7,5,4,30,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+6,4,3,2,7,5,1,21,1250.5,Man,Low,Students,Global South,No,High School,Yes
+7,6,5,3,2,1,4,31,3500.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+6,5,4,3,1,2,7,21,0,Woman,Low,Quaternary sector,Global South,No,High School,No
+7,6,3,5,4,1,2,38,3500.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+6,3,5,7,1,4,2,35,5000,Man,High,Quaternary sector,Global North,Yes,Master,No
+6,3,5,7,4,2,1,56,3500.5,Man,Medium,Quaternary sector,Global North,No,Master,No
+7,6,5,4,1,2,3,41,1250.5,Man,Medium,Quaternary sector,Global North,No,Master,Yes
+6,4,5,7,2,3,1,30,5000,Woman,Medium,Quaternary sector,Global North,Yes,PhD,No
+4,6,5,2,3,1,7,28,1250.5,Woman,Low,Tertiary sector,Global South,No,High School,Yes
+5,7,3,4,6,1,2,32,1250.5,Woman,Medium,Quaternary sector,Global South,No,Master,No
+6,3,2,1,7,4,5,24,3500.5,Man,Low,Quaternary sector,Global South,Yes,High School,No
+7,2,1,4,6,5,3,26,1250.5,Woman,Medium,Students,Global North,No,Master,No
+5,3,4,6,1,2,7,61,1250.5,Man,Medium,Quaternary sector,Global South,No,Bachelor,No
+6,7,5,3,1,2,4,24,1250.5,Man,Low,Quaternary sector,Global South,No,High School,No
+7,6,4,5,3,2,1,50,5000,Man,High,Quaternary sector,Global South,No,Master,No
+1,-9,5,-9,4,3,2,44,5000,Man,High,Quaternary sector,Global South,Yes,Master,No
+6,5,3,2,4,1,7,37,5000,Man,High,Quaternary sector,Global South,Yes,Master,No
+6,4,5,1,7,2,3,55,5000,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,No
+5,3,2,1,7,4,6,30,5000,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+5,4,6,7,1,2,3,61,1250.5,Man,Medium,Quaternary sector,Global South,No,Bachelor,No
+7,6,5,4,2,3,1,40,5000,Man,High,Tertiary sector,Global North,Yes,Master,No
+6,5,3,4,7,1,2,33,5000,Woman,High,Secondary sector,Global South,Yes,PhD,No
+7,4,3,2,5,1,6,25,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,Yes
+7,5,4,3,6,2,1,54,5000,Man,High,Quaternary sector,Global North,No,Master,Yes
+6,5,3,4,1,2,7,22,0,Woman,Low,Students,Global South,Yes,High School,No
+7,6,5,1,2,3,4,22,1250.5,Woman,Low,Students,Global South,Yes,High School,No
+5,4,3,2,7,1,6,22,250.5,Man,Low,Secondary sector,Global South,Yes,High School,No
+5,4,6,7,2,1,3,21,0,Woman,Low,Quaternary sector,Global South,No,High School,No
+7,5,6,4,1,2,3,23,250.5,Man,Low,Students,Global South,Yes,High School,No
+6,5,4,1,2,3,7,21,0,Woman,Low,Students,Global South,No,High School,No
+5,6,3,4,7,2,1,22,1250.5,Woman,Low,Tertiary sector,Global South,Yes,High School,No
+5,4,2,3,7,1,6,21,0,Woman,Low,Students,Global South,Yes,High School,No
+6,4,1,5,7,3,2,21,250.5,Man,Low,Students,Global South,Yes,High School,No
+5,6,4,7,2,1,3,21,0,Woman,Low,Students,Global South,No,High School,No
+6,5,3,4,7,2,1,36,3500.5,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+5,6,2,3,7,1,4,30,3500.5,Woman,Medium,Tertiary sector,Global South,No,Master,Yes
+1,2,5,3,4,7,6,32,0,Woman,Medium,Tertiary sector,Global North,No,No degree,Yes
+6,2,3,7,1,5,4,20,1250.5,Man,Low,Quaternary sector,Global South,No,High School,Yes
+7,5,6,4,2,1,3,23,1250.5,Woman,Medium,Secondary sector,Global South,No,High School,No
+6,7,5,3,4,2,1,23,1250.5,Man,Low,Tertiary sector,Global South,No,High School,No
+6,5,4,7,1,2,3,20,1250.5,Man,Low,Students,Global South,No,High School,No
+3,2,1,4,7,5,6,45,5000,Man,High,Quaternary sector,Global South,Yes,Master,No
+3,1,4,2,5,7,-9,62,3500.5,Man,Medium,Tertiary sector,Global North,Yes,Bachelor,No
+6,7,2,5,3,1,4,28,250.5,Woman,Low,Quaternary sector,Global South,No,High School,No
+5,3,1,2,6,4,7,25,1250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+5,2,4,7,1,3,6,27,5000,Woman,Medium,Quaternary sector,Global North,No,High School,No
+5,7,3,2,4,1,6,61,5000,Woman,Medium,Quaternary sector,Global North,No,Master,No
+5,4,6,3,1,7,2,30,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,PhD,No
+4,3,1,2,7,5,6,22,0,Man,Low,Students,Global South,Yes,High School,Yes
+7,6,5,4,3,2,1,30,5000,Man,High,Tertiary sector,Global South,No,Master,Yes
+1,2,3,7,6,5,4,23,0,Woman,Low,Students,Global North,Yes,Bachelor,Yes
+6,4,5,7,1,2,3,31,3500.5,Woman,Medium,Quaternary sector,Global South,No,Master,Yes
+6,5,3,4,7,2,1,36,5000,Man,High,Tertiary sector,Global North,No,Master,No
+6,5,4,3,7,1,2,29,3500.5,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+6,5,3,4,7,2,1,31,3500.5,Man,Medium,Secondary sector,Global South,No,Master,Yes
+4,-9,2,5,3,1,-9,27,1250.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,Yes
+1,2,3,7,4,5,6,39,5000,Woman,Medium,Quaternary sector,Global North,No,Master,Yes
+6,5,4,1,3,2,7,29,5000,Man,Medium,Quaternary sector,Not available,No,Bachelor,Yes
+3,2,5,4,1,7,6,19,1250.5,Woman,Low,Students,Global South,No,High School,No
+7,5,6,4,1,2,3,19,3500.5,Woman,Low,Students,Global South,Yes,High School,No
+4,3,5,2,6,1,7,18,250.5,Man,Low,Quaternary sector,Global South,Yes,High School,No
+5,1,2,3,7,6,4,31,0,Man,Low,Tertiary sector,Global South,Yes,High School,No
+3,1,5,2,7,6,4,20,250.5,Woman,Low,Students,Global South,Yes,High School,No
+2,7,1,3,4,5,6,19,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+4,2,3,1,6,5,7,17,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+4,1,3,2,7,5,6,21,250.5,Man,Low,Students,Global South,Yes,High School,No
+7,6,4,1,3,2,5,18,0,Man,Low,Students,Global North,No,High School,Yes
+7,5,6,3,4,1,2,19,1250.5,Man,Low,Quaternary sector,Global South,No,High School,No
+7,4,1,3,6,2,5,22,5000,Man,Medium,Students,Global South,Yes,High School,No
+2,3,1,4,6,5,7,20,250.5,Man,Low,Quaternary sector,Global South,No,High School,No
+4,3,2,1,5,7,6,31,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,No
+7,4,2,3,6,1,5,21,250.5,Man,Low,Students,Global South,Yes,High School,No
+7,5,6,4,3,1,2,54,5000,Man,High,Quaternary sector,Global South,No,Master,No
+4,3,2,6,1,7,5,28,1250.5,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,Yes
+5,4,2,3,6,1,7,20,250.5,Man,Low,Quaternary sector,Global South,Yes,High School,No
+5,6,7,3,4,2,1,16,250.5,Woman,Low,Quaternary sector,Global South,No,High School,No
+7,5,6,4,2,3,1,26,250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+5,4,2,3,6,1,7,52,5000,Woman,Medium,Quaternary sector,Global North,No,Master,No
+5,6,7,4,1,2,3,48,1250.5,Man,Medium,Quaternary sector,Global South,No,Bachelor,No
+5,4,3,2,7,6,1,34,5000,Man,Medium,Quaternary sector,Global South,No,Bachelor,Yes
+5,4,2,3,6,1,7,44,1250.5,Woman,Medium,Tertiary sector,Global South,No,Bachelor,No
+4,5,1,3,6,2,7,34,5000,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+7,6,4,5,2,3,1,17,250.5,Woman,Low,Quaternary sector,Global South,No,High School,No
+5,4,3,2,6,1,7,17,0,Man,Low,Tertiary sector,Global South,Yes,High School,No
+5,4,6,7,1,2,3,36,1250.5,Man,Medium,Quaternary sector,Not available,No,Master,No
+6,5,2,3,7,1,4,18,1250.5,Man,Low,Students,Global South,Yes,High School,No
+3,2,1,4,6,5,7,44,5000,Woman,High,Tertiary sector,Global North,Yes,Master,No
+5,4,1,2,3,6,7,18,250.5,Man,Low,Students,Global South,Yes,High School,No
+7,6,5,1,3,4,2,36,1250.5,Woman,High,Quaternary sector,Global South,No,Master,Yes
+7,3,5,4,1,2,6,17,250.5,Woman,Low,Students,Global South,Yes,High School,No
+5,7,6,4,3,1,2,21,250.5,Woman,Low,Students,Global South,No,High School,No
+4,6,5,2,3,1,7,37,0,Man,Low,Quaternary sector,Global South,Yes,Master,No
+1,2,3,4,7,6,5,64,0,Woman,Medium,Tertiary sector,Global South,No,High School,No
+4,3,1,2,5,7,6,36,1250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,5,6,2,4,3,1,40,1250.5,Man,Medium,Tertiary sector,Global South,No,Master,Yes
+4,3,1,7,5,2,6,34,3500.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,Yes
+5,6,4,2,7,3,1,27,0,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+5,4,1,3,7,2,6,32,5000,Woman,Medium,Tertiary sector,Global North,No,Bachelor,Yes
+1,2,3,4,5,6,7,31,5000,Man,Medium,Secondary sector,Global North,No,PhD,No
+6,7,5,2,1,4,3,38,3500.5,Man,High,Quaternary sector,Global North,No,PhD,Yes
+7,6,5,4,3,1,2,40,1250.5,Woman,Medium,Tertiary sector,Global South,No,Master,No
+3,5,4,6,2,1,7,28,5000,Man,Medium,Quaternary sector,Global North,No,Master,Yes
+4,3,5,6,1,7,2,58,1250.5,Man,Low,Quaternary sector,Global South,No,Bachelor,No
+4,3,1,7,2,6,5,65,250.5,Man,Low,Tertiary sector,Global South,No,Master,No
+6,4,1,5,7,3,2,22,250.5,Man,Medium,Students,Global South,No,High School,No
+5,1,6,7,2,4,3,60,5000,Woman,High,Quaternary sector,Global North,Yes,Bachelor,No
+6,5,4,1,7,3,2,28,0,Man,Medium,Tertiary sector,Global South,No,High School,No
+1,2,3,6,7,4,5,45,0,Woman,Low,Quaternary sector,Global South,No,Bachelor,No
+1,2,5,4,6,7,3,33,250.5,Man,Low,Quaternary sector,Global South,Yes,High School,No
+7,6,5,3,2,1,4,36,0,Man,Low,Tertiary sector,Global South,Yes,Bachelor,No
+7,6,4,5,3,2,1,39,250.5,Woman,Low,Quaternary sector,Global South,No,Bachelor,Yes
+6,5,3,4,7,2,1,22,0,Woman,Low,Students,Global South,No,High School,No
+5,4,3,7,6,1,2,18,250.5,Man,Low,Students,Global South,No,High School,No
+1,4,2,3,7,5,6,26,0,Man,Low,Quaternary sector,Global South,No,High School,No
+1,2,3,6,4,5,7,27,250.5,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+1,3,2,5,7,4,6,29,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+3,4,2,6,1,5,7,38,1250.5,Man,Low,Quaternary sector,Global South,Yes,Bachelor,No
+6,2,1,7,3,5,4,22,250.5,Man,Low,Secondary sector,Global South,Yes,High School,No
+2,6,7,4,5,3,1,47,250.5,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+4,2,3,1,5,6,7,41,0,Woman,Low,Quaternary sector,Global South,Yes,High School,Yes
+1,2,3,7,5,6,4,45,0,Woman,Low,Tertiary sector,Global South,Yes,High School,No
+5,6,4,7,1,3,2,60,1250.5,Man,Low,Quaternary sector,Global South,Yes,Bachelor,No
+5,2,1,4,3,7,6,44,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+5,4,2,6,3,1,7,43,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+3,2,1,5,7,6,4,48,0,Woman,Low,Tertiary sector,Global South,Yes,High School,No
+3,1,2,4,5,6,7,47,250.5,Woman,Low,Tertiary sector,Global South,No,High School,No
+6,4,2,3,7,1,5,24,1250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+5,7,6,3,1,2,4,33,1250.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+1,3,4,5,7,6,2,23,250.5,Man,Low,Tertiary sector,Global South,Yes,High School,No
+5,4,3,2,6,1,7,36,5000,Man,Medium,Tertiary sector,Global South,No,High School,No
+4,3,1,2,6,5,7,26,5000,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,No
+7,5,6,1,3,4,2,55,5000,Man,High,Quaternary sector,Global South,Yes,Bachelor,No
+5,4,2,3,6,1,7,21,0,Woman,Low,Students,Global South,Yes,High School,No
+6,5,1,4,7,2,3,61,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,No
+1,2,3,5,4,6,7,21,250.5,Woman,Low,Students,Global South,No,High School,No
+7,2,3,6,5,4,1,29,1250.5,Woman,Low,Tertiary sector,Not available,No,High School,No
+6,5,4,3,7,2,1,26,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+5,3,4,2,1,7,6,40,3500.5,Woman,Medium,Quaternary sector,Global North,No,High School,No
+7,6,5,4,1,3,2,28,3500.5,Woman,Medium,Quaternary sector,Global South,Yes,Master,Yes
+7,3,6,1,2,5,4,35,1250.5,Man,Medium,Secondary sector,Global South,No,Bachelor,No
+7,3,6,5,1,2,4,55,1250.5,Man,Medium,Tertiary sector,Global South,No,Bachelor,No
+6,2,1,3,7,4,5,27,250.5,Man,High,Tertiary sector,Global South,No,High School,No
+3,2,1,6,4,7,5,47,1250.5,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,No
+7,6,5,2,3,4,1,39,5000,Man,High,Secondary sector,Global South,Yes,Bachelor,No
+7,6,5,4,3,2,1,39,0,Woman,Low,Secondary sector,Global South,No,Bachelor,No
+4,6,3,2,7,1,5,32,250.5,Woman,Low,Secondary sector,Global South,No,Bachelor,No
+7,6,5,4,1,3,2,26,250.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+6,2,1,5,7,4,3,17,1250.5,Man,Low,Students,Global South,Yes,High School,No
+5,7,6,2,4,3,1,25,1250.5,Man,Low,Tertiary sector,Global South,No,High School,No
+-9,-9,1,2,3,4,5,68,3500.5,Man,High,Quaternary sector,Not available,No,Bachelor,Yes
+5,6,7,2,1,3,4,65,5000,Man,Low,Secondary sector,Global South,No,Bachelor,No
+6,5,3,4,7,2,1,33,3500.5,Man,Medium,Quaternary sector,Global South,No,Master,No
+7,4,3,6,1,2,5,38,0,Woman,Low,Tertiary sector,Global South,No,High School,No
+7,1,6,5,3,4,2,49,250.5,Man,Low,Quaternary sector,Global South,Yes,High School,No
+6,5,3,4,7,2,1,20,3500.5,Woman,Low,Tertiary sector,Global South,No,High School,No
+3,4,5,7,2,6,1,40,250.5,Man,Medium,Secondary sector,Global South,Yes,Bachelor,No
+6,5,2,1,7,3,4,29,5000,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+5,3,4,1,7,6,2,31,1250.5,Man,Low,Quaternary sector,Global South,Yes,Master,No
+4,3,2,1,7,6,5,33,5000,Man,High,Quaternary sector,Not available,No,Master,Yes
+6,5,3,4,2,1,7,30,250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+2,4,3,1,6,5,7,36,3500.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+6,5,4,2,7,1,3,31,3500.5,Woman,Medium,Tertiary sector,Global North,No,Master,Yes
+5,7,6,1,2,3,4,28,3500.5,Woman,Medium,Tertiary sector,Global North,No,Bachelor,Yes
+7,6,4,5,2,1,3,28,5000,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+6,5,3,4,7,2,1,48,5000,Woman,High,Quaternary sector,Global North,Yes,Master,No
+7,5,3,2,1,4,6,29,0,Man,Low,Quaternary sector,Global North,Yes,Master,No
+3,2,1,7,4,5,6,19,0,Woman,Low,Students,Global South,No,High School,No
+1,4,2,3,7,6,5,26,1250.5,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+7,6,4,2,1,3,5,20,0,Man,Low,Students,Global South,No,High School,No
+4,1,3,2,5,7,6,35,0,Woman,Low,Tertiary sector,Global South,No,High School,No
+2,4,3,5,6,7,1,28,1250.5,Woman,Low,Quaternary sector,Global South,No,High School,No
+5,4,2,3,7,1,6,20,0,Woman,Low,Tertiary sector,Global South,No,High School,No
+3,2,1,4,6,5,7,20,0,Woman,Low,Students,Global South,No,High School,No
+5,6,4,1,2,3,7,26,0,Man,Low,Quaternary sector,Global South,No,Bachelor,No
+1,2,3,4,7,6,5,21,250.5,Man,Low,Students,Global South,Yes,High School,No
+3,1,2,4,5,7,6,39,0,Man,Low,Quaternary sector,Global South,No,High School,No
+5,4,6,7,1,3,2,28,3500.5,Man,Medium,Quaternary sector,Global North,No,Master,Yes
+2,3,1,4,7,6,5,28,0,Woman,Low,Tertiary sector,Global South,No,Master,No
+3,1,2,4,5,-9,-9,30,3500.5,Man,Medium,Quaternary sector,Global North,Yes,Master,Yes
+4,1,2,3,7,6,5,18,0,Woman,Low,Quaternary sector,Global South,No,High School,No
+6,5,4,3,7,2,1,47,5000,Man,High,Quaternary sector,Global North,No,PhD,Yes
+5,7,4,6,3,2,1,26,5000,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+5,3,2,1,4,6,7,32,1250.5,Woman,Low,Quaternary sector,Global South,No,Master,Yes
+6,2,3,1,7,4,5,18,250.5,Man,Low,Tertiary sector,Global South,Yes,High School,No
+6,7,5,3,4,2,1,53,0,Man,Medium,Tertiary sector,Global North,Yes,High School,No
+4,5,6,1,3,7,2,28,5000,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+2,1,3,4,7,5,6,45,0,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+5,6,4,7,1,2,3,27,5000,Woman,Medium,Quaternary sector,Global South,Yes,Bachelor,No
+2,5,1,3,4,7,6,17,250.5,Woman,Low,Students,Global South,Yes,High School,No
+2,3,1,6,4,7,5,26,0,Woman,Low,Primary sector,Global North,Yes,Bachelor,Yes
+4,5,2,3,1,6,7,28,250.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+5,4,3,6,7,2,1,32,3500.5,Man,Medium,Quaternary sector,Global North,Yes,Master,Yes
+2,1,4,3,7,5,6,33,0,Man,Medium,Quaternary sector,Global North,No,PhD,No
+1,2,3,4,6,5,7,28,0,Woman,Low,Students,Global South,Yes,Bachelor,Yes
+2,4,1,3,5,6,7,31,250.5,Woman,Low,Quaternary sector,Global South,No,Bachelor,Yes
+3,2,1,4,7,5,6,37,0,Woman,Medium,Quaternary sector,Global South,Yes,Bachelor,Yes
+4,3,2,5,1,6,7,34,0,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+6,5,3,4,7,2,1,30,5000,Man,Medium,Quaternary sector,Global South,No,Bachelor,Yes
+4,5,2,3,1,7,6,30,0,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+1,2,5,3,-9,4,-9,90,3500.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+4,5,6,3,2,7,1,22,250.5,Woman,Low,Students,Global South,No,High School,No
+7,6,5,4,1,3,2,19,0,Woman,Low,Students,Global South,No,High School,No
+7,5,1,4,6,2,3,31,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,PhD,No
+6,3,1,2,7,4,5,34,5000,Woman,High,Quaternary sector,Global North,No,Master,Yes
+7,3,4,1,6,5,2,26,0,Woman,Medium,Tertiary sector,Global North,No,Master,Yes
+5,4,3,7,1,2,6,30,5000,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+2,5,1,-9,-9,3,4,32,1250.5,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+2,5,1,3,4,6,7,23,1250.5,Man,Low,Quaternary sector,Global South,No,Bachelor,Yes
+4,6,3,5,7,2,1,30,5000,Man,High,Secondary sector,Global South,No,Master,Yes
+4,1,2,3,6,5,7,22,3500.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+7,3,6,4,5,1,2,18,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+6,2,4,1,5,3,7,30,5000,Woman,High,Quaternary sector,Global North,No,Master,No
+4,3,5,7,6,1,2,25,5000,Woman,Medium,Tertiary sector,Global North,No,Master,No
+3,1,2,4,5,7,6,25,0,Woman,Low,Students,Global North,No,Bachelor,No
+7,6,4,5,1,3,2,29,3500.5,Woman,High,Quaternary sector,Global South,Yes,Bachelor,Yes
+1,2,3,5,4,6,7,26,0,Woman,Low,Students,Global South,Yes,Master,Yes
+7,5,6,3,1,4,2,27,5000,Woman,Medium,Quaternary sector,Global North,No,Master,Yes
+6,5,7,4,2,3,1,53,1250.5,Woman,Low,Secondary sector,Global South,No,Bachelor,No
+7,6,5,1,2,3,4,28,0,Man,Low,Quaternary sector,Global South,Yes,High School,No
+5,4,3,2,6,1,7,22,0,Man,Low,Students,Global South,No,Bachelor,No
+4,3,2,1,6,5,7,20,0,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+7,6,5,2,4,1,3,22,0,Woman,Low,Students,Global South,No,High School,No
+2,7,5,3,1,4,6,21,0,Woman,Low,Students,Global South,No,High School,No
+2,3,5,4,1,6,7,21,250.5,Woman,Low,Students,Global South,Yes,High School,No
+7,5,4,1,6,3,2,34,5000,Woman,Medium,Quaternary sector,Global North,Yes,PhD,No
+1,6,4,2,7,5,3,21,250.5,Man,Low,Quaternary sector,Global South,Yes,Bachelor,No
+3,1,2,7,5,4,6,23,5000,Woman,Low,Quaternary sector,Global South,No,Bachelor,No
+6,5,4,2,7,3,1,29,3500.5,Man,Medium,Primary sector,Global South,Yes,Bachelor,Yes
+2,1,3,6,5,7,4,32,1250.5,Woman,Medium,Quaternary sector,Global North,No,High School,No
+6,5,7,1,2,4,3,22,250.5,Woman,Low,Primary sector,Global South,No,High School,No
+2,1,3,6,7,5,4,25,0,Woman,Low,Students,Global South,Yes,Bachelor,Yes
+4,5,1,2,3,7,6,26,1250.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,Yes
+6,4,5,1,3,2,7,51,1250.5,Man,Medium,Tertiary sector,Global South,No,Bachelor,No
+4,3,5,1,6,7,2,32,1250.5,Woman,Medium,Quaternary sector,Global South,Yes,Master,No
+6,5,3,4,2,1,7,27,5000,Woman,Medium,Quaternary sector,Global North,Yes,High School,No
+3,2,6,4,1,5,7,35,5000,Man,High,Quaternary sector,Global North,No,Master,No
+4,3,1,2,7,5,6,30,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+4,5,6,7,1,3,2,39,3500.5,Man,High,Tertiary sector,Global North,No,Master,No
+6,4,5,7,1,2,3,25,1250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,5,3,4,6,2,1,23,3500.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+5,7,4,6,1,2,3,25,3500.5,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,Yes
+6,5,4,3,1,2,7,30,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+5,4,6,7,2,1,3,27,1250.5,Man,Medium,Secondary sector,Global North,Yes,Bachelor,No
+6,5,4,2,7,1,3,28,0,Man,Medium,Secondary sector,Global North,Yes,Master,Yes
+7,6,5,4,2,3,1,17,250.5,Woman,Low,Students,Global South,No,High School,No
+2,6,1,3,5,7,4,40,5000,Woman,Medium,Tertiary sector,Global North,Yes,Master,No
+6,3,5,7,4,2,1,29,250.5,Woman,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,5,6,3,4,2,1,43,0,Man,Low,Tertiary sector,Global North,No,Bachelor,No
+3,2,1,4,7,5,6,28,1250.5,Man,Low,Students,Not available,Yes,Bachelor,Yes
+4,2,1,3,7,6,5,21,250.5,Man,Low,Students,Global South,Yes,High School,Yes
+6,7,5,4,2,3,1,40,5000,Man,High,Tertiary sector,Global North,Yes,Master,No
+5,3,7,1,4,2,6,32,5000,Woman,High,Quaternary sector,Global North,No,Master,No
+7,5,4,3,6,1,2,29,1250.5,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,No
+6,5,3,4,7,2,1,21,250.5,Man,Low,Students,Global South,Yes,High School,No
+6,3,1,2,5,4,7,22,250.5,Man,Low,Students,Not available,No,High School,No
+7,5,6,4,2,1,3,51,1250.5,Man,Low,Tertiary sector,Global South,No,High School,No
+7,5,3,4,6,2,1,31,5000,Man,Medium,Tertiary sector,Global North,No,Bachelor,No
+7,4,6,5,1,2,3,30,1250.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+7,6,3,4,5,2,1,33,3500.5,Man,Medium,Secondary sector,Global North,No,High School,No
+7,6,4,2,1,5,3,27,5000,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+6,5,4,3,1,2,7,33,5000,Man,High,Secondary sector,Global North,Yes,Master,No
+5,4,3,2,1,7,6,45,3500.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+3,1,2,7,4,5,6,31,0,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,4,3,6,1,2,5,24,250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,5,3,2,6,1,4,30,0,Man,Medium,Tertiary sector,Global North,No,Master,No
+4,6,3,7,2,1,5,28,3500.5,Woman,Medium,Tertiary sector,Global North,Yes,Master,No
+7,5,6,4,1,3,2,27,5000,Woman,Medium,Tertiary sector,Global North,No,Master,No
+6,2,5,4,1,3,7,26,5000,Man,Medium,Secondary sector,Global North,No,High School,No
+6,5,3,4,7,2,1,29,5000,Man,Medium,Secondary sector,Global North,Yes,Master,No
+7,5,6,3,4,1,2,30,3500.5,Man,Medium,Tertiary sector,Global North,No,Master,No
+4,5,1,3,6,2,7,31,3500.5,Man,Medium,Secondary sector,Global North,No,Master,No
+5,7,3,4,1,2,6,30,5000,Man,Medium,Secondary sector,Global North,No,Bachelor,No
+7,5,2,3,6,1,4,24,5000,Man,Medium,Tertiary sector,Global North,Yes,Bachelor,No
+5,3,4,7,6,2,1,41,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+7,6,2,3,5,1,4,28,1250.5,Woman,Medium,Tertiary sector,Global North,Yes,Master,No
+4,5,6,7,1,2,3,20,5000,Man,Medium,Quaternary sector,Global North,No,High School,No
+7,5,3,1,2,6,4,29,5000,Man,Medium,Secondary sector,Global North,No,Master,No
+7,5,6,4,1,3,2,25,5000,Woman,Medium,Secondary sector,Global North,Yes,Master,No
+1,3,2,4,5,6,7,30,0,Woman,Medium,Secondary sector,Global North,Yes,Master,No
+6,5,-9,1,4,3,2,32,3500.5,Woman,Medium,Quaternary sector,Global South,Yes,Bachelor,Yes
+6,7,4,3,5,1,2,23,3500.5,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+7,5,4,3,6,1,2,25,5000,Man,Medium,Tertiary sector,Global North,Yes,Master,No
+3,5,6,7,4,2,1,21,1250.5,Man,Low,Secondary sector,Global North,Yes,High School,No
+5,4,6,7,3,2,1,31,5000,Man,High,Quaternary sector,Global North,No,Master,No
+7,6,5,4,1,3,2,29,1250.5,Man,Medium,Secondary sector,Global North,No,Bachelor,Yes
+7,6,4,3,1,2,5,26,3500.5,Woman,Medium,Tertiary sector,Global North,No,Bachelor,No
+6,4,3,5,7,2,1,29,250.5,Man,Low,Secondary sector,Global North,Yes,Bachelor,No
+6,5,7,2,4,1,3,36,5000,Man,Medium,Tertiary sector,Global North,Yes,Master,No
+5,6,7,4,1,3,2,28,3500.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+6,5,3,4,7,2,1,43,0,Man,Medium,Secondary sector,Global North,Yes,Master,No
+5,2,4,1,6,7,3,30,1250.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+6,4,5,1,3,2,7,20,1250.5,Man,Low,Students,Global North,No,High School,No
+4,3,5,7,6,2,1,42,1250.5,Man,Medium,Tertiary sector,Global North,No,Bachelor,No
+7,4,3,5,6,1,2,26,1250.5,Man,Low,Secondary sector,Global North,No,Bachelor,No
+5,2,1,7,3,4,6,25,1250.5,Man,Medium,Quaternary sector,Global North,No,High School,No
+4,3,2,7,5,6,1,27,3500.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+4,3,2,6,7,1,5,27,1250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,6,1,5,4,2,3,28,1250.5,Woman,Medium,Secondary sector,Global South,Yes,Bachelor,Yes
+6,5,4,3,1,2,7,30,5000,Woman,Medium,Secondary sector,Global North,No,Master,No
+6,2,1,7,4,5,3,35,5000,Woman,Medium,Quaternary sector,Global North,No,Master,No
+7,6,4,5,3,2,1,24,3500.5,Man,Medium,Secondary sector,Global North,No,Bachelor,No
+3,2,1,4,7,6,5,30,1250.5,Man,Medium,Tertiary sector,Global South,Yes,Master,Yes
+5,4,6,7,3,2,1,44,5000,Man,High,Secondary sector,Global North,Yes,Master,No
+6,4,3,7,5,2,1,31,5000,Man,Medium,Tertiary sector,Global North,No,Master,No
+7,4,5,2,6,1,3,24,5000,Man,Medium,Tertiary sector,Global North,No,Master,No
+7,6,5,3,4,2,1,35,5000,Woman,High,Quaternary sector,Global North,Yes,Master,No
+5,6,4,3,1,2,7,23,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+6,4,5,7,3,2,1,32,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+3,6,5,7,4,2,1,32,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+7,6,5,4,1,3,2,25,5000,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+7,5,6,4,3,2,1,28,5000,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+1,3,2,4,5,7,6,27,1250.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+5,3,4,6,7,1,2,29,5000,Man,Medium,Tertiary sector,Global North,No,Master,No
+2,3,7,4,5,1,6,38,3500.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+5,4,3,2,6,1,7,48,5000,Woman,Medium,Quaternary sector,Global North,No,Bachelor,No
+3,7,4,2,1,5,6,24,1250.5,Woman,Low,Students,Global North,No,Bachelor,No
+7,3,6,2,5,4,1,32,5000,Man,Medium,Secondary sector,Global North,No,Master,No
+2,4,1,3,7,6,5,32,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+3,2,1,5,6,4,7,34,1250.5,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,Yes
+6,5,2,3,7,1,4,36,5000,Man,High,Tertiary sector,Global North,Yes,Master,No
+6,4,3,5,7,1,2,28,5000,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+6,5,1,2,7,3,4,37,1250.5,Woman,High,Quaternary sector,Global North,Yes,PhD,No
+7,6,5,3,4,2,1,40,3500.5,Man,Medium,Secondary sector,Global North,No,Master,No
+2,6,3,7,5,1,4,28,5000,Man,High,Secondary sector,Global North,No,Master,No
+6,5,3,4,1,2,7,28,250.5,Woman,Medium,Tertiary sector,Global North,No,Bachelor,No
+5,3,4,7,1,2,6,29,5000,Woman,Medium,Quaternary sector,Global North,Yes,PhD,No
+4,2,3,1,7,6,5,43,5000,Woman,Medium,Quaternary sector,Global South,No,Master,No
+5,6,4,7,3,1,2,31,3500.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+5,4,3,7,6,2,1,29,0,Man,Medium,Secondary sector,Global North,No,Master,No
+7,6,2,3,4,1,5,31,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+2,1,7,6,3,4,5,29,0,Man,Low,Students,Global South,Yes,Master,Yes
+6,1,3,2,7,5,4,26,5000,Man,High,Quaternary sector,Global North,Yes,Master,Yes
+1,3,2,4,6,5,7,21,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,4,5,6,2,3,1,26,3500.5,Man,Medium,Secondary sector,Global North,No,Bachelor,No
+6,5,2,3,7,1,4,27,5000,Woman,Medium,Secondary sector,Global North,No,Bachelor,No
+7,4,6,5,1,2,3,36,3500.5,Man,Medium,Tertiary sector,Global North,No,Bachelor,No
+5,3,2,1,4,6,7,28,3500.5,Woman,Medium,Students,Global North,Yes,Master,No
+3,1,2,7,4,5,6,28,1250.5,Woman,Low,Quaternary sector,Global South,No,Master,Yes
+5,4,3,2,1,6,7,34,1250.5,Woman,Low,Quaternary sector,Global South,Yes,Master,No
+2,5,1,7,6,4,3,27,1250.5,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+3,4,5,6,7,2,1,38,3500.5,Man,High,Quaternary sector,Global North,No,Master,Yes
+1,4,2,3,6,5,7,72,250.5,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+2,5,1,3,6,4,7,62,5000,Man,High,Quaternary sector,Global North,Yes,Master,No
+5,3,2,6,7,4,1,54,5000,Man,High,Quaternary sector,Global North,Yes,PhD,No
+6,5,2,3,7,4,1,27,1250.5,Man,Medium,Quaternary sector,Global North,No,Master,No
+6,3,4,5,7,2,1,31,5000,Woman,High,Quaternary sector,Global North,No,Master,No
+5,2,3,1,6,4,7,55,0,Man,Low,Quaternary sector,Global North,Yes,Master,No
+3,2,1,6,4,5,7,28,0,Woman,Low,Quaternary sector,Not available,Yes,Bachelor,Yes
+6,5,3,4,7,2,1,27,250.5,Man,Medium,Quaternary sector,Global North,Yes,Master,Yes
+3,1,5,2,6,4,7,36,3500.5,Man,Low,Quaternary sector,Not available,Yes,Bachelor,Yes
+1,2,3,6,7,5,4,54,0,Man,High,Quaternary sector,Global North,No,Master,No
+5,4,7,6,1,2,3,28,1250.5,Woman,Medium,Tertiary sector,Global North,No,Master,No
+5,1,3,4,2,6,7,33,5000,Man,High,Quaternary sector,Global North,No,Master,No
+3,1,2,4,5,7,6,41,0,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+6,5,3,4,2,1,7,30,5000,Woman,Medium,Quaternary sector,Global North,No,Master,No
+7,4,6,3,2,1,5,32,5000,Woman,Medium,Quaternary sector,Global North,No,Master,No
+6,5,4,3,2,1,7,45,0,Man,Low,Quaternary sector,Global South,Yes,Bachelor,No
+3,5,4,7,6,2,1,30,3500.5,Man,High,Quaternary sector,Global North,Yes,Bachelor,No
+7,5,3,4,6,2,1,29,3500.5,Man,Medium,Tertiary sector,Global North,No,Master,No
+7,4,5,6,3,2,1,24,250.5,Man,Low,Quaternary sector,Global North,No,High School,No
+4,3,2,7,1,5,6,33,5000,Man,High,Quaternary sector,Global North,Yes,PhD,No
+7,5,6,3,4,2,1,30,3500.5,Man,Medium,Students,Global North,No,Bachelor,No
+6,7,3,1,2,4,5,62,3500.5,Man,Medium,Quaternary sector,Global South,Yes,PhD,Yes
+6,5,4,2,7,3,1,26,0,Man,Medium,Students,Global South,Yes,Bachelor,Yes
+3,2,1,4,7,6,5,25,1250.5,Man,Low,Tertiary sector,Global South,No,High School,No
+1,6,3,7,2,4,5,21,250.5,Man,Low,Secondary sector,Global South,Yes,High School,No
+6,4,2,3,7,1,5,19,250.5,Woman,Low,Students,Global South,Yes,Bachelor,No
+3,1,2,4,7,6,5,25,250.5,Man,Low,Quaternary sector,Global South,Yes,High School,No
+7,6,2,3,4,1,5,24,3500.5,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+6,5,3,4,7,1,2,26,1250.5,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+4,2,1,7,3,6,5,23,1250.5,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+7,6,5,2,4,3,1,20,0,Man,Low,Students,Global South,Yes,High School,No
+3,4,5,7,6,2,1,30,5000,Man,Medium,Secondary sector,Global North,No,Master,No
+6,5,4,2,7,3,1,36,5000,Man,High,Quaternary sector,Global South,No,Master,Yes
+6,2,5,7,4,1,3,30,5000,Man,Medium,Quaternary sector,Global North,No,PhD,No
+6,7,5,3,1,2,4,31,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+5,4,3,1,6,2,7,23,250.5,Man,Low,Secondary sector,Global South,Yes,Bachelor,No
+6,4,1,2,7,3,5,35,5000,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+4,2,1,3,5,6,7,26,250.5,Woman,Medium,Students,Global South,Yes,Master,Yes
+5,4,1,2,6,3,7,24,250.5,Woman,Medium,Primary sector,Global South,No,Bachelor,Yes
+6,5,4,3,7,2,1,38,5000,Man,High,Quaternary sector,Global North,No,PhD,Yes
+7,6,5,4,1,3,2,39,5000,Man,Medium,Quaternary sector,Global South,No,PhD,No
+1,4,2,3,5,7,6,29,0,Man,Medium,Quaternary sector,Not available,Yes,Master,Yes
+3,2,1,4,7,6,5,32,1250.5,Woman,Medium,Quaternary sector,Not available,Yes,Bachelor,Yes
+7,6,5,1,4,2,3,32,5000,Man,Medium,Quaternary sector,Global North,No,Master,Yes
+2,4,1,3,5,-9,-9,27,5000,Man,Medium,Secondary sector,Global North,No,Bachelor,No
+4,5,6,7,3,2,1,30,5000,Man,High,Quaternary sector,Global North,No,PhD,No
+7,6,4,3,5,2,1,28,1250.5,Man,Medium,Students,Global North,No,High School,No
+1,2,4,5,3,7,6,40,5000,Man,Medium,Quaternary sector,Global South,Yes,Master,No
+6,4,5,7,3,2,1,59,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+6,5,3,4,7,1,2,32,5000,Man,Medium,Tertiary sector,Global North,No,Bachelor,No
+1,5,6,4,7,3,2,22,250.5,Man,Low,Students,Global South,No,High School,No
+3,6,5,2,7,1,4,26,3500.5,Woman,Medium,Quaternary sector,Global South,No,Master,Yes
+7,5,1,2,6,3,4,19,250.5,Woman,Low,Students,Global South,Yes,High School,No
+7,6,3,2,4,5,1,36,0,Man,Medium,Quaternary sector,Global South,No,PhD,No
+7,6,5,4,3,1,2,26,0,Woman,Low,Quaternary sector,Global South,No,Bachelor,No
+7,5,4,2,3,1,6,24,250.5,Man,Low,Secondary sector,Global South,No,High School,No
+6,5,4,3,1,2,7,24,1250.5,Man,Low,Quaternary sector,Global South,No,Bachelor,No
+7,6,5,3,4,1,2,22,3500.5,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,No
+6,5,4,3,7,1,2,28,1250.5,Woman,Medium,Tertiary sector,Global South,Yes,Bachelor,No
+2,6,1,5,4,3,7,40,0,Man,Medium,Quaternary sector,Global South,No,PhD,No
+6,5,4,2,7,1,3,25,3500.5,Man,Low,Quaternary sector,Global South,Yes,Bachelor,No
+7,6,5,4,2,1,3,30,3500.5,Man,Medium,Quaternary sector,Global South,No,Master,No
+3,4,2,1,5,6,7,24,250.5,Woman,Low,Students,Global South,Yes,Bachelor,Yes
+2,4,3,1,5,6,7,28,250.5,Man,Low,Primary sector,Global South,Yes,High School,No
+4,5,2,1,7,6,3,48,3500.5,Woman,High,Quaternary sector,Global North,No,Master,Yes
+2,5,1,3,4,6,7,32,5000,Man,High,Quaternary sector,Global North,Yes,Master,Yes
+4,3,5,6,7,2,1,58,5000,Woman,Medium,Quaternary sector,Global North,No,Master,No
+6,4,3,5,7,2,1,34,5000,Woman,Medium,Quaternary sector,Global North,No,PhD,No
+6,5,2,3,4,1,7,23,250.5,Man,Low,Students,Global South,No,High School,No
+5,4,6,7,2,3,1,20,0,Man,Low,Quaternary sector,Global South,No,High School,No
+7,5,6,1,3,4,2,22,3500.5,Man,Medium,Tertiary sector,Global South,Yes,Bachelor,No
+5,4,3,6,7,2,1,36,5000,Man,High,Quaternary sector,Global South,No,Master,Yes
+6,5,3,4,7,2,1,20,250.5,Man,Low,Students,Global South,No,High School,No
+6,4,3,2,5,1,7,22,250.5,Man,Low,Quaternary sector,Global South,No,High School,No
+6,5,3,2,4,1,7,20,0,Woman,Low,Students,Global South,No,High School,No
+2,3,4,1,7,5,6,44,5000,Woman,High,Tertiary sector,Global North,Yes,Master,No
+7,6,5,4,2,3,1,20,0,Man,Low,Students,Global South,No,High School,No
+6,7,5,2,4,1,3,20,0,Man,Low,Students,Global South,No,High School,No
+1,3,2,5,4,6,7,47,0,Woman,High,Quaternary sector,Global South,No,PhD,Yes
+7,5,4,3,6,2,1,20,250.5,Man,Low,Students,Global South,No,High School,No
+6,5,2,1,7,4,3,22,0,Man,Medium,Students,Global South,No,High School,No
+4,2,3,1,5,7,6,33,0,Man,Medium,Primary sector,Global North,Yes,Bachelor,No
+7,4,2,5,6,3,1,24,0,Woman,Low,Students,Global South,No,Bachelor,Yes
+6,1,4,2,5,3,7,17,0,Woman,Low,Students,Global South,Yes,High School,No
+6,4,1,2,5,3,7,32,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+4,7,6,3,1,5,2,30,1250.5,Woman,Medium,Tertiary sector,Global South,Yes,Master,No
+7,6,5,4,2,1,3,23,250.5,Man,Medium,Tertiary sector,Global North,No,Bachelor,No
+5,7,6,4,1,3,2,37,5000,Man,High,Tertiary sector,Global North,No,Master,No
+5,1,2,6,4,3,7,26,3500.5,Woman,Medium,Tertiary sector,Global North,Yes,Bachelor,Yes
+1,2,3,4,5,6,7,50,5000,Woman,High,Quaternary sector,Global South,Yes,PhD,Yes
+4,1,2,3,7,5,6,23,0,Man,Low,Quaternary sector,Global South,Yes,High School,No
+2,6,3,5,4,1,7,37,1250.5,Woman,Medium,Tertiary sector,Global South,No,High School,No
+1,2,3,4,5,6,7,24,1250.5,Woman,Low,Students,Global South,Yes,Bachelor,Yes
+3,4,2,6,7,5,1,26,250.5,Man,Medium,Students,Global North,Yes,High School,No
+1,3,2,5,4,6,7,20,0,Man,Low,Students,Global North,No,Bachelor,Yes
+5,6,4,7,1,2,3,55,250.5,Woman,Low,Tertiary sector,Global North,Yes,Master,No
+6,7,5,4,1,3,2,53,3500.5,Woman,High,Quaternary sector,Global North,Yes,Master,Yes
+5,2,1,6,3,4,7,30,1250.5,Man,Low,Secondary sector,Global South,Yes,High School,No
+6,5,3,4,7,2,1,40,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,Yes
+-9,5,4,-9,1,3,2,60,3500.5,Man,Medium,Quaternary sector,Global South,Yes,PhD,No
+3,6,4,7,5,2,1,32,3500.5,Man,Medium,Students,Global North,Yes,Master,No
+5,2,3,1,7,4,6,42,5000,Man,Medium,Primary sector,Global South,No,Master,Yes
+3,1,2,4,7,5,6,30,250.5,Man,Low,Quaternary sector,Global South,No,High School,No
+7,6,5,4,3,2,1,42,0,Man,Medium,Secondary sector,Global North,No,Bachelor,No
+5,3,4,7,6,2,1,23,250.5,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,Yes
+7,3,2,6,5,4,1,27,1250.5,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+4,3,6,2,1,5,7,29,1250.5,Man,Medium,Quaternary sector,Not available,No,Bachelor,Yes
+7,3,4,6,1,5,2,21,0,Woman,Medium,Students,Global South,No,High School,No
+-9,5,-9,2,1,4,3,33,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+5,4,6,2,7,3,1,29,1250.5,Man,Medium,Quaternary sector,Global North,Yes,Master,Yes
+1,5,3,6,7,2,4,31,5000,Man,High,Quaternary sector,Global North,Yes,Master,No
+7,6,4,1,3,5,2,56,5000,Man,High,Quaternary sector,Global North,Yes,Master,Yes
+3,1,2,4,5,6,7,17,0,Man,Low,Quaternary sector,Global South,Yes,High School,Yes
+5,4,2,1,3,6,7,43,5000,Man,Medium,Quaternary sector,Global South,No,PhD,Yes
+2,4,3,1,7,6,5,34,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,No
+2,3,6,1,5,7,4,23,0,Woman,Low,Quaternary sector,Global North,No,High School,No
+5,2,6,7,1,3,4,23,250.5,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,Yes
+7,6,5,2,1,4,3,21,3500.5,Woman,Medium,Tertiary sector,Global North,No,Bachelor,No
+4,3,2,1,7,6,5,25,1250.5,Woman,Medium,Quaternary sector,Global South,No,Bachelor,No
+3,6,4,1,5,7,2,28,250.5,Woman,Low,Quaternary sector,Global South,No,Bachelor,No
+4,3,1,2,6,7,5,26,1250.5,Man,Medium,Students,Global North,Yes,High School,No
+6,5,7,1,4,2,3,23,0,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,No
+6,5,4,3,7,2,1,33,250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+1,2,3,7,4,5,6,38,0,Man,Low,Quaternary sector,Global South,No,Bachelor,No
+3,2,1,5,-9,4,-9,30,5000,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+3,2,4,7,1,5,6,30,0,Man,Low,Quaternary sector,Global South,Yes,Master,No
+2,5,3,1,4,6,7,29,0,Man,Low,Quaternary sector,Global South,Yes,Master,No
+4,5,3,2,6,7,1,23,1250.5,Man,Low,Quaternary sector,Global South,No,Bachelor,No
+4,6,5,7,2,1,3,25,0,Man,Low,Quaternary sector,Global South,No,High School,No
+7,6,4,5,2,3,1,26,3500.5,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+6,5,3,2,7,1,4,31,5000,Man,High,Quaternary sector,Global South,Yes,Bachelor,No
+7,5,6,2,3,1,4,27,1250.5,Man,Low,Students,Global South,No,High School,Yes
+4,7,2,1,3,6,5,25,250.5,Man,Low,Quaternary sector,Global South,Yes,High School,Yes
+1,3,2,6,4,5,7,32,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,Yes
+-9,-9,5,4,3,2,1,38,5000,Man,High,Quaternary sector,Global North,No,Master,No
+6,5,2,3,7,1,4,29,0,Woman,Medium,Tertiary sector,Global North,Yes,Master,No
+4,3,1,2,5,6,7,50,0,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+6,2,5,3,1,4,7,26,5000,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+7,5,4,3,1,2,6,25,5000,Man,Low,Quaternary sector,Global South,No,Master,Yes
+7,2,1,3,4,5,6,24,0,Man,Low,Quaternary sector,Global North,No,High School,No
+5,2,1,3,4,7,6,32,1250.5,Man,Low,Quaternary sector,Global South,Yes,Master,No
+5,4,1,2,3,6,7,31,3500.5,Man,Low,Quaternary sector,Global South,Yes,Bachelor,No
+1,3,2,7,4,6,5,23,0,Man,Low,Quaternary sector,Global South,Yes,Bachelor,Yes
+6,5,7,4,2,1,3,60,5000,Man,High,Quaternary sector,Global South,No,Master,No
+5,4,3,6,1,2,7,37,0,Woman,Medium,Tertiary sector,Global South,No,Bachelor,No
+2,3,4,7,1,5,6,33,250.5,Man,Medium,Quaternary sector,Global South,No,Bachelor,No
+1,3,2,4,5,6,7,44,3500.5,Woman,Medium,Tertiary sector,Global South,No,High School,No
+6,5,2,3,4,1,7,27,250.5,Man,Low,Quaternary sector,Global South,No,Bachelor,Yes
+7,6,5,4,1,3,2,36,3500.5,Woman,Low,Quaternary sector,Global South,Yes,Master,Yes
+6,5,4,3,7,2,1,28,3500.5,Man,Low,Students,Global South,No,Bachelor,Yes
+2,7,1,6,3,5,4,32,0,Woman,Low,Students,Global South,No,Bachelor,Yes
+1,3,2,5,7,6,4,33,250.5,Woman,Medium,Quaternary sector,Global South,No,High School,No
+7,6,5,4,1,2,3,29,0,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+5,7,6,4,3,1,2,34,3500.5,Woman,Medium,Quaternary sector,Not available,Yes,Master,Yes
+5,4,3,1,2,7,6,25,1250.5,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,No
+6,4,3,7,5,1,2,36,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+5,3,7,1,6,4,2,26,0,Man,Low,Quaternary sector,Global South,No,Bachelor,No
+7,6,5,4,1,2,3,33,1250.5,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,No
+7,5,6,1,4,2,3,28,5000,Man,Medium,Quaternary sector,Global South,No,Master,No
+6,5,4,3,7,2,1,43,250.5,Man,Medium,Primary sector,Global South,No,Master,No
+4,5,6,1,7,2,3,40,1250.5,Man,Medium,Quaternary sector,Global South,Yes,Master,No
+7,6,5,3,4,2,1,39,3500.5,Man,Low,Quaternary sector,Global South,No,Master,No
+1,3,2,4,5,7,6,29,1250.5,Woman,Medium,Students,Global North,Yes,Master,No
+5,4,3,6,7,2,1,27,250.5,Woman,High,Quaternary sector,Global South,No,Master,Yes
+7,4,6,3,5,1,2,28,1250.5,Woman,Low,Quaternary sector,Global South,No,Master,No
+6,7,5,4,3,2,1,27,250.5,Man,Medium,Tertiary sector,Global South,Yes,Master,Yes
+3,2,1,4,5,7,6,23,1250.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+5,3,4,-9,6,2,1,32,5000,Man,Medium,Tertiary sector,Global North,No,Master,No
+2,4,3,1,5,7,6,27,1250.5,Man,Low,Students,Global South,No,Bachelor,No
+5,6,1,2,7,3,4,30,5000,Woman,Medium,Quaternary sector,Global North,No,PhD,No
+6,5,4,3,7,2,1,30,5000,Man,Medium,Quaternary sector,Global South,Yes,Master,No
+3,1,5,6,7,4,2,28,1250.5,Man,Medium,Quaternary sector,Global South,Yes,Bachelor,Yes
+3,2,1,5,7,6,4,27,1250.5,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+3,2,1,4,6,7,5,17,0,Woman,Low,Students,Global South,No,High School,No
+7,6,3,4,5,1,2,27,1250.5,Woman,Medium,Tertiary sector,Global South,No,Master,Yes
+4,5,3,1,2,7,6,29,0,Man,Medium,Quaternary sector,Global North,No,Master,Yes
+3,1,2,4,6,5,7,28,250.5,Woman,Low,Quaternary sector,Global South,No,Bachelor,Yes
+3,4,1,2,5,6,7,30,5000,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+5,4,2,3,7,1,6,35,0,Man,Medium,Quaternary sector,Global North,No,Master,No
+6,4,5,3,7,2,1,47,1250.5,Man,Medium,Tertiary sector,Global South,No,Bachelor,No
+3,2,1,4,7,5,6,26,0,Man,Low,Quaternary sector,Global South,Yes,Master,Yes
+7,6,5,1,4,2,3,47,5000,Man,High,Quaternary sector,Global South,No,Master,No
+2,3,1,4,5,6,7,27,250.5,Woman,Medium,Tertiary sector,Global North,Yes,Master,Yes
+6,2,3,7,4,1,5,26,0,Man,Low,Students,Global South,No,Bachelor,No
+6,5,7,1,2,4,3,30,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+6,5,4,3,7,2,1,53,5000,Man,High,Secondary sector,Global North,Yes,No degree,No
+5,6,4,2,7,1,3,29,1250.5,Man,Medium,Quaternary sector,Not available,No,Bachelor,No
+4,3,2,1,7,5,6,45,0,Man,Medium,Quaternary sector,Global North,Yes,PhD,Yes
+3,5,4,2,7,6,1,40,5000,Man,High,Tertiary sector,Global North,Yes,Master,No
+6,5,7,1,3,2,4,25,1250.5,Man,Low,Primary sector,Global South,No,Bachelor,No
+6,4,3,2,7,1,5,22,0,Woman,Low,Quaternary sector,Global South,No,High School,No
+6,5,2,3,7,1,4,22,250.5,Woman,Low,Quaternary sector,Global South,Yes,High School,No
+4,6,5,2,1,7,3,27,5000,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+6,3,4,1,7,5,2,36,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+7,6,4,5,1,3,2,38,5000,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+1,3,2,4,6,7,5,24,3500.5,Woman,Medium,Quaternary sector,Global South,Yes,Bachelor,Yes
+6,5,2,3,4,1,7,25,0,Woman,Low,Students,Global North,No,Master,No
+6,5,4,3,7,2,1,28,1250.5,Woman,Medium,Quaternary sector,Global South,Yes,High School,No
+5,2,1,3,6,4,7,26,1250.5,Man,Low,Quaternary sector,Global South,No,Master,Yes
+7,5,6,3,1,4,2,31,5000,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+5,1,6,7,3,4,2,29,1250.5,Man,Medium,Quaternary sector,Global North,Yes,Master,Yes
+6,5,4,7,3,1,2,29,5000,Woman,High,Tertiary sector,Global North,Yes,Master,No
+3,5,4,7,6,1,2,33,5000,Man,High,Quaternary sector,Global North,Yes,Master,No
+7,4,6,3,1,2,5,30,0,Woman,Medium,Tertiary sector,Global North,No,Master,No
+6,4,1,2,5,3,7,33,1250.5,Man,High,Quaternary sector,Global North,No,Bachelor,Yes
+3,2,1,4,7,5,6,26,0,Man,Low,Secondary sector,Global South,Yes,High School,No
+6,4,1,2,5,7,3,34,5000,Woman,High,Tertiary sector,Global South,Yes,Master,Yes
+6,5,1,2,7,3,4,31,1250.5,Woman,Low,Tertiary sector,Global South,No,Bachelor,Yes
+5,6,3,1,7,4,2,32,5000,Man,High,Quaternary sector,Global South,Yes,Bachelor,No
+7,2,6,4,5,3,1,36,1250.5,Woman,High,Tertiary sector,Global South,Yes,PhD,Yes
+5,3,4,7,6,1,2,26,5000,Man,Low,Quaternary sector,Global South,No,Bachelor,Yes
+5,7,1,4,6,2,3,28,1250.5,Woman,Low,Quaternary sector,Global South,Yes,Master,Yes
+4,6,5,7,1,3,2,30,1250.5,Woman,Medium,Tertiary sector,Global North,No,Master,Yes
+6,5,4,3,1,2,7,22,250.5,Man,Low,Students,Global South,No,High School,No
+6,3,1,2,7,5,4,27,3500.5,Man,Low,Quaternary sector,Global South,Yes,Master,No
+7,6,3,2,4,1,5,26,250.5,Woman,Low,Tertiary sector,Global South,No,Bachelor,Yes
+3,6,7,4,5,1,2,35,0,Man,Medium,Quaternary sector,Global South,No,Master,Yes
+6,5,3,4,7,2,1,28,5000,Man,Medium,Quaternary sector,Global South,Yes,Master,No
+2,7,5,1,4,6,3,43,5000,Man,High,Quaternary sector,Global North,Yes,PhD,No
+6,5,4,3,7,2,1,24,5000,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+7,6,3,2,5,4,1,25,0,Woman,Low,Students,Global South,Yes,Master,Yes
+7,6,4,5,3,2,1,31,0,Woman,High,Tertiary sector,Global North,No,PhD,No
+4,3,1,7,6,5,2,29,5000,Man,High,Quaternary sector,Not available,No,Master,Yes
+7,5,6,1,4,2,3,30,1250.5,Woman,Low,Quaternary sector,Global South,Yes,Bachelor,No
+4,2,1,3,5,7,6,30,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,Yes
+3,2,1,4,6,7,5,24,1250.5,Man,Low,Students,Global North,Yes,High School,No
+5,4,2,6,3,1,7,20,1250.5,Man,Low,Students,Global North,No,High School,No
+1,3,4,2,5,6,7,25,3500.5,Man,Low,Students,Global North,No,Bachelor,No
+2,1,3,6,5,7,4,21,0,Woman,Low,Students,Global North,Yes,High School,No
+4,1,5,7,2,3,6,37,0,Man,Medium,Quaternary sector,Global North,Yes,High School,No
+3,4,1,5,2,6,7,21,250.5,Woman,Low,Students,Global North,No,High School,No
+4,2,3,1,6,7,5,24,1250.5,Man,Low,Students,Global North,Yes,High School,No
+1,3,2,4,5,7,6,22,1250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+5,3,2,1,6,4,7,21,1250.5,Woman,Low,Students,Global North,No,High School,No
+5,1,4,7,2,3,6,20,250.5,Woman,Low,Students,Global North,No,High School,No
+7,6,4,3,1,2,5,24,1250.5,Man,Low,Students,Global North,No,High School,No
+3,4,5,7,2,6,1,20,1250.5,Man,Low,Students,Global North,Yes,High School,No
+7,6,5,4,2,3,1,30,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+1,3,2,5,4,6,7,23,0,Woman,Low,Students,Global North,Yes,High School,No
+5,2,3,4,1,6,7,20,1250.5,Woman,Low,Students,Global North,No,High School,No
+4,2,3,5,1,6,7,20,1250.5,Woman,Low,Quaternary sector,Global North,No,High School,No
+6,5,4,3,7,2,1,22,250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+4,2,3,7,1,5,6,26,0,Man,Low,Students,Global North,No,Bachelor,No
+6,5,4,3,7,2,1,22,250.5,Man,Medium,Students,Global North,Yes,High School,No
+7,3,5,2,1,4,6,19,1250.5,Woman,Low,Quaternary sector,Global North,No,High School,No
+7,1,5,4,6,3,2,22,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+3,2,4,6,1,5,7,21,1250.5,Woman,Low,Students,Global North,No,High School,No
+5,2,3,4,1,7,6,22,0,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+7,6,5,3,4,2,1,32,1250.5,Man,Low,Students,Global North,No,High School,No
+2,3,1,6,4,5,7,28,3500.5,Woman,Medium,Quaternary sector,Global North,No,Bachelor,No
+6,5,7,1,2,4,3,54,250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+3,2,4,6,5,1,7,23,1250.5,Man,Low,Quaternary sector,Global North,No,High School,No
+5,2,4,7,6,1,3,21,0,Man,Low,Students,Global North,No,High School,No
+7,5,3,4,6,1,2,36,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+6,4,2,5,7,3,1,27,0,Man,Low,Students,Global North,Yes,Bachelor,No
+2,1,3,4,5,6,7,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+4,3,1,2,7,5,6,26,1250.5,Woman,Low,Students,Global North,No,Bachelor,No
+3,4,5,7,6,2,1,30,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+5,3,1,2,6,4,7,26,0,Woman,Low,Tertiary sector,Global North,No,Bachelor,No
+6,5,3,2,7,1,4,27,250.5,Man,Low,Students,Global North,Yes,Master,No
+4,2,3,1,5,6,7,24,3500.5,Woman,Medium,Quaternary sector,Global North,No,High School,No
+3,1,2,4,7,5,6,27,250.5,Woman,Low,Quaternary sector,Global North,No,Master,No
+6,5,2,3,4,1,7,19,1250.5,Woman,Low,Students,Global North,No,High School,No
+2,6,4,7,1,3,5,22,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,4,3,5,6,2,1,34,5000,Man,High,Quaternary sector,Global North,No,Master,No
+3,1,2,6,4,5,7,20,250.5,Woman,Low,Students,Global North,No,High School,No
+7,2,6,3,1,4,5,20,250.5,Woman,Low,Students,Global North,No,High School,No
+6,5,4,3,7,1,2,23,0,Man,Low,Students,Global North,No,High School,Yes
+7,6,4,5,1,3,2,21,250.5,Woman,Low,Students,Global North,No,High School,No
+6,5,7,3,1,2,4,28,3500.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+7,5,6,3,1,2,4,19,1250.5,Woman,Low,Students,Global North,No,High School,No
+7,6,5,4,3,1,2,24,250.5,Man,Low,Students,Global North,No,Bachelor,No
+5,3,2,4,1,6,7,26,1250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+5,7,6,3,2,4,1,25,250.5,Man,Low,Quaternary sector,Global North,Yes,Bachelor,No
+2,4,3,1,5,6,7,25,3500.5,Man,Medium,Tertiary sector,Global North,Yes,Bachelor,No
+5,2,1,7,6,3,4,25,0,Woman,Low,Students,Global North,Yes,High School,No
+2,3,1,4,5,6,-9,25,0,Man,Medium,Students,Global North,No,High School,No
+4,2,5,3,1,7,6,29,250.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+3,2,1,4,5,6,7,23,250.5,Woman,Low,Students,Global North,No,High School,No
+5,4,6,7,2,3,1,24,250.5,Man,Low,Students,Global North,No,Bachelor,No
+3,4,2,1,5,7,6,22,1250.5,Woman,Medium,Students,Global North,Yes,High School,No
+3,2,1,7,6,4,5,28,0,Woman,Low,Students,Global North,No,Bachelor,No
+7,5,3,6,4,1,2,20,3500.5,Woman,Low,Students,Global North,Yes,High School,No
+3,1,2,5,4,7,6,19,250.5,Woman,Low,Students,Global North,No,High School,No
+7,6,3,4,5,2,1,32,5000,Man,Medium,Quaternary sector,Global North,No,Master,No
+2,7,5,3,6,1,4,22,1250.5,Man,Low,Students,Global North,No,High School,No
+6,3,1,4,2,5,7,20,3500.5,Woman,Low,Students,Global North,Yes,High School,No
+5,4,1,3,7,2,6,24,0,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+2,3,1,4,7,5,6,22,0,Woman,Low,Students,Global South,Yes,High School,Yes
+3,5,1,2,4,6,7,24,250.5,Woman,Medium,Students,Global South,Yes,Bachelor,Yes
+6,4,1,5,3,2,7,24,250.5,Woman,Low,Students,Global North,No,Bachelor,No
+7,3,4,1,5,2,6,33,3500.5,Woman,Medium,Tertiary sector,Global North,Yes,Bachelor,No
+1,3,2,4,5,6,7,32,0,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+4,5,3,7,6,2,1,25,0,Man,Low,Quaternary sector,Global North,No,Bachelor,No
+5,4,7,3,1,2,6,26,1250.5,Man,Low,Students,Global North,No,High School,No
+3,2,1,4,5,7,6,20,250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+4,6,3,5,1,2,7,22,250.5,Woman,Low,Tertiary sector,Global North,No,High School,No
+6,5,4,3,2,1,7,22,3500.5,Man,Low,Students,Global North,Yes,High School,No
+5,6,4,7,3,2,1,24,0,Man,Low,Students,Global North,Yes,Bachelor,No
+1,5,3,4,2,6,7,22,0,Woman,Low,Students,Global North,Yes,High School,No
+6,5,4,7,3,1,2,64,1250.5,Man,Medium,Tertiary sector,Global North,Yes,Master,No
+6,5,4,3,7,1,2,22,0,Man,Medium,Tertiary sector,Global North,No,High School,No
+7,5,6,1,2,3,4,38,0,Man,Medium,Quaternary sector,Global North,Yes,High School,No
+7,6,3,2,4,1,5,26,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+6,5,4,2,3,1,7,25,3500.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+7,2,6,3,1,4,5,21,1250.5,Woman,Low,Students,Global North,No,High School,No
+7,4,2,1,3,6,5,24,250.5,Man,Low,Students,Global North,Yes,High School,No
+6,5,3,2,7,1,4,24,250.5,Woman,Low,Students,Global North,Yes,High School,No
+1,3,2,4,5,6,7,23,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+6,5,2,3,7,1,4,23,3500.5,Woman,Medium,Students,Global North,No,Bachelor,No
+4,1,5,2,3,6,7,30,3500.5,Woman,Low,Tertiary sector,Global North,No,Bachelor,No
+6,5,3,2,7,1,4,23,3500.5,Woman,Medium,Students,Global North,No,Bachelor,No
+6,2,1,3,7,5,4,25,1250.5,Woman,Low,Students,Global North,No,High School,No
+5,3,4,1,2,6,7,26,0,Man,Low,Students,Global North,No,Bachelor,No
+4,2,6,1,5,3,7,21,1250.5,Woman,Low,Students,Global North,No,High School,No
+7,6,4,5,1,3,2,20,1250.5,Woman,Low,Students,Global North,No,High School,No
+7,6,2,3,5,1,4,36,0,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+6,5,4,7,1,2,3,31,3500.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+6,5,3,4,7,2,1,22,250.5,Man,Low,Students,Global North,Yes,High School,No
+6,4,5,7,3,1,2,21,1250.5,Woman,Low,Students,Global North,No,High School,No
+2,3,5,4,1,6,7,23,0,Woman,Low,Students,Global North,No,High School,No
+1,3,2,4,5,6,7,25,250.5,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,No
+5,3,4,1,7,2,6,21,250.5,Woman,Low,Students,Global North,No,High School,No
+6,7,5,4,1,2,3,22,250.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+2,4,3,7,5,1,6,34,250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+4,3,1,2,6,5,7,23,250.5,Man,Low,Students,Global North,Yes,High School,No
+5,4,1,3,6,2,7,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+6,5,7,4,2,1,3,28,0,Man,Low,Students,Global North,Yes,Bachelor,No
+4,6,5,3,1,2,7,21,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,4,6,3,2,1,5,20,250.5,Man,Medium,Students,Global North,No,High School,No
+5,4,2,7,1,3,6,28,1250.5,Man,Medium,Quaternary sector,Global North,No,Master,No
+6,2,1,4,5,3,7,24,0,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+7,6,5,4,1,2,3,24,0,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+7,6,5,3,4,2,1,27,0,Man,Low,Students,Global South,No,Bachelor,Yes
+5,4,2,7,6,1,3,24,250.5,Woman,Low,Students,Global North,Yes,High School,Yes
+6,4,3,1,5,2,7,19,0,Man,Low,Students,Global North,No,High School,No
+7,6,3,4,5,1,2,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+4,2,1,3,5,7,6,21,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+1,3,2,4,5,6,7,26,0,Woman,Low,Students,Global North,Yes,Bachelor,No
+3,6,1,2,5,7,4,20,0,Woman,Low,Students,Global North,Yes,High School,No
+1,4,6,7,2,5,3,20,1250.5,Man,Low,Students,Global North,Yes,High School,No
+4,7,3,5,1,2,6,23,1250.5,Man,Low,Students,Global North,No,High School,No
+5,6,3,4,7,2,1,24,5000,Man,Medium,Students,Global North,Yes,Bachelor,No
+6,5,7,4,1,3,2,21,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+3,1,2,6,4,5,7,34,5000,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+7,6,3,5,2,1,4,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+4,1,2,7,5,6,3,36,3500.5,Woman,High,Quaternary sector,Global North,No,Master,Yes
+5,2,1,3,7,4,6,21,0,Woman,Low,Students,Global North,Yes,High School,No
+6,3,5,1,2,4,7,27,3500.5,Man,Medium,Tertiary sector,Global North,No,High School,No
+1,2,3,4,6,5,7,26,3500.5,Man,Medium,Tertiary sector,Global North,No,High School,No
+3,2,4,7,1,6,5,22,250.5,Woman,Low,Students,Global North,No,High School,No
+6,3,4,2,1,5,7,24,1250.5,Woman,Low,Students,Global North,No,Bachelor,No
+3,2,1,5,4,7,6,21,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,1,2,4,5,6,3,24,250.5,Woman,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+1,4,3,2,5,6,7,20,250.5,Woman,Low,Students,Global North,Yes,High School,No
+5,4,2,7,3,1,6,22,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+2,1,5,7,3,6,4,26,1250.5,Man,Low,Quaternary sector,Global North,No,Master,No
+6,4,3,5,2,1,7,27,0,Woman,Low,Students,Global North,No,High School,No
+2,3,1,4,5,6,7,20,0,Man,Low,Students,Global North,No,High School,No
+6,2,1,5,4,3,7,41,1250.5,Man,Low,Tertiary sector,Global North,Yes,Master,No
+6,5,3,4,1,2,7,22,1250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+5,1,6,2,3,4,7,27,250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+5,1,6,4,7,3,2,20,5000,Woman,Low,Students,Global North,Yes,High School,No
+3,4,1,5,2,6,7,27,250.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+7,5,6,4,2,1,3,56,250.5,Man,Medium,Tertiary sector,Global North,No,High School,No
+6,5,2,1,3,7,4,19,250.5,Man,Low,Students,Global North,No,High School,Yes
+5,2,3,7,1,4,6,27,250.5,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+7,5,3,4,1,6,2,27,250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+5,2,1,6,3,4,7,21,5000,Man,Medium,Tertiary sector,Global North,No,Bachelor,No
+6,4,5,7,1,3,2,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+3,2,4,5,1,6,7,26,0,Woman,Low,Students,Global North,Yes,High School,No
+3,1,2,6,4,5,7,24,1250.5,Woman,Low,Students,Global North,No,Bachelor,No
+7,4,5,3,1,2,6,22,0,Man,Low,Students,Global North,Yes,High School,No
+2,1,3,4,5,6,7,21,250.5,Man,Low,Students,Global North,No,High School,No
+5,2,1,3,6,4,7,28,5000,Woman,Medium,Quaternary sector,Global North,No,Bachelor,No
+3,1,2,6,4,7,5,24,1250.5,Woman,Low,Students,Global North,No,Bachelor,No
+1,6,2,3,5,4,7,27,1250.5,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,No
+6,5,2,3,4,1,7,34,1250.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+3,6,7,4,2,1,5,27,3500.5,Man,Low,Students,Global North,Yes,Bachelor,No
+2,1,3,4,5,7,6,29,0,Woman,Low,Students,Global North,No,Bachelor,No
+1,2,3,6,7,4,5,54,0,Man,Medium,Quaternary sector,Global North,No,High School,No
+3,4,5,2,1,7,6,23,1250.5,Woman,Low,Students,Global North,No,High School,No
+2,3,4,1,7,6,5,19,250.5,Man,Low,Students,Global North,No,High School,No
+2,3,1,4,5,6,7,23,250.5,Woman,Low,Students,Global North,No,High School,No
+7,6,5,4,3,2,1,19,1250.5,Woman,Low,Students,Global North,No,High School,No
+5,7,3,2,6,1,4,23,0,Woman,Low,Students,Global North,Yes,High School,No
+3,1,2,7,5,4,6,19,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,5,4,3,6,2,1,39,0,Man,Medium,Secondary sector,Global North,No,Master,No
+1,5,2,3,4,6,7,21,5000,Woman,Low,Students,Global North,Yes,High School,No
+7,5,6,4,2,1,3,21,250.5,Woman,Low,Students,Global North,No,Bachelor,No
+1,2,4,3,7,5,6,27,1250.5,Woman,Low,Tertiary sector,Global North,No,Bachelor,No
+6,1,4,3,2,5,7,20,3500.5,Woman,Low,Quaternary sector,Global North,No,High School,No
+2,3,6,7,5,1,4,20,250.5,Woman,Low,Students,Global North,No,High School,No
+7,5,2,3,4,1,6,28,1250.5,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,No
+4,3,2,7,5,1,6,20,250.5,Woman,Low,Students,Global North,No,High School,No
+6,4,5,7,3,1,2,20,250.5,Woman,Low,Students,Global North,No,High School,No
+6,5,4,7,1,2,3,19,1250.5,Woman,Low,Students,Global North,No,High School,No
+6,5,7,4,1,2,3,22,0,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+4,2,5,6,1,3,7,27,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+3,2,4,5,1,6,7,23,1250.5,Woman,Medium,Students,Global North,Yes,High School,No
+4,3,5,6,2,1,7,34,3500.5,Man,Medium,Quaternary sector,Global North,No,Bachelor,No
+5,3,6,2,1,4,7,25,3500.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+6,5,7,4,1,3,2,22,0,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+4,3,2,1,6,5,7,28,3500.5,Man,Medium,Quaternary sector,Global South,Yes,Master,Yes
+1,3,2,4,5,7,6,22,1250.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+2,3,1,6,4,5,7,23,0,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,No
+4,3,2,7,1,5,6,23,1250.5,Man,Low,Students,Global North,No,High School,No
+7,4,3,2,6,1,5,29,1250.5,Man,Medium,Quaternary sector,Global North,Yes,Bachelor,No
+6,5,4,3,7,1,2,26,1250.5,Man,Low,Students,Global North,No,High School,No
+4,5,3,6,2,7,1,26,1250.5,Man,Low,Students,Global North,Yes,Bachelor,No
+7,6,3,2,4,1,5,18,250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,5,4,2,6,1,3,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+1,3,2,4,7,6,5,22,250.5,Woman,Low,Tertiary sector,Global North,Yes,High School,No
+6,3,7,4,2,1,5,21,250.5,Man,Low,Quaternary sector,Not available,No,High School,Yes
+7,5,2,3,6,1,4,20,250.5,Man,Low,Students,Global North,Yes,High School,No
+6,5,4,3,1,2,7,22,250.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+7,1,4,2,3,5,6,25,0,Woman,Low,Students,Global North,No,Bachelor,No
+3,2,1,5,4,6,7,20,250.5,Woman,Low,Students,Global North,No,High School,No
+5,4,1,2,6,3,7,23,250.5,Woman,Low,Students,Global North,Yes,High School,No
+2,3,1,4,5,7,6,29,250.5,Man,Low,Quaternary sector,Global North,No,Bachelor,No
+4,1,5,7,6,2,3,21,3500.5,Man,Low,Students,Global North,No,High School,No
+6,5,4,3,1,2,7,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+2,1,3,4,7,5,6,20,0,Woman,Low,Students,Global North,No,High School,No
+3,2,1,5,4,7,6,30,1250.5,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,Yes
+5,3,1,2,4,6,7,20,250.5,Woman,Low,Students,Global North,Yes,High School,No
+2,3,1,4,5,6,7,25,250.5,Man,Low,Students,Global North,No,High School,No
+5,4,3,6,1,7,2,22,3500.5,Woman,Low,Students,Global North,No,High School,No
+7,6,5,4,2,3,1,20,250.5,Woman,Low,Students,Global North,No,High School,No
+7,5,4,3,1,2,6,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+2,3,1,4,5,6,7,28,0,Man,Low,Quaternary sector,Global North,Yes,High School,No
+3,2,1,5,4,7,6,22,3500.5,Woman,Low,Students,Global North,Yes,High School,No
+7,4,5,6,2,3,1,33,250.5,Woman,Low,Quaternary sector,Global South,No,Master,Yes
+2,3,1,5,6,7,4,20,250.5,Woman,Low,Students,Global North,Yes,High School,No
+2,1,3,7,6,5,4,24,0,Man,Low,Students,Global North,No,Bachelor,No
+2,4,5,3,7,1,6,20,1250.5,Woman,Low,Tertiary sector,Global North,Yes,High School,No
+5,4,3,1,2,7,6,24,250.5,Man,Low,Students,Global North,No,Bachelor,No
+2,1,3,7,4,5,6,26,0,Man,Medium,Quaternary sector,Global North,Yes,Master,No
+5,4,1,3,7,2,6,27,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+6,2,5,7,1,3,4,22,250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+5,3,1,4,2,7,6,21,0,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+6,5,2,4,3,1,7,25,250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,Yes
+6,5,2,4,3,1,7,25,250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+6,4,2,3,7,1,5,37,1250.5,Woman,Medium,Tertiary sector,Global North,Yes,High School,No
+3,1,2,6,5,7,4,20,250.5,Woman,Low,Students,Global North,No,High School,No
+5,3,4,2,1,6,7,54,3500.5,Woman,Medium,Tertiary sector,Global North,Yes,Master,No
+5,4,3,7,6,2,1,29,1250.5,Woman,Low,Students,Global North,No,High School,No
+3,1,2,4,5,7,6,27,1250.5,Woman,Low,Students,Global North,No,Bachelor,No
+1,4,2,3,5,6,7,24,250.5,Woman,Low,Students,Global North,Yes,High School,Yes
+5,6,2,4,1,3,7,20,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+6,4,1,2,5,3,7,26,1250.5,Man,Low,Students,Global North,Yes,Bachelor,No
+7,5,6,3,1,2,4,30,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+1,2,6,4,3,5,7,25,3500.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+6,5,3,4,1,2,7,19,250.5,Woman,Low,Students,Global North,No,High School,No
+3,2,1,7,4,6,5,22,5000,Woman,Low,Students,Global North,Yes,Bachelor,No
+7,4,5,6,2,1,3,29,1250.5,Man,Low,Students,Global North,No,High School,No
+4,3,1,2,7,5,6,22,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+6,5,1,4,3,2,7,21,3500.5,Woman,Medium,Students,Global North,Yes,High School,No
+3,2,1,5,4,7,6,22,1250.5,Woman,Medium,Quaternary sector,Global North,No,High School,No
+5,6,4,7,3,2,1,53,5000,Man,High,Quaternary sector,Global North,Yes,PhD,No
+6,4,7,5,1,2,3,20,0,Woman,Low,Students,Global North,Yes,High School,No
+6,5,3,4,7,1,2,24,5000,Woman,Low,Students,Global North,No,High School,No
+7,6,5,4,3,2,1,24,0,Man,Low,Quaternary sector,Global North,No,High School,No
+5,4,2,3,6,7,1,23,0,Man,Low,Students,Global North,No,High School,No
+7,6,3,5,1,2,4,26,1250.5,Woman,Medium,Quaternary sector,Global North,No,High School,No
+7,5,6,4,1,2,3,32,0,Woman,Low,Students,Global North,No,High School,No
+1,3,2,6,5,7,4,20,0,Woman,Low,Students,Global North,Yes,High School,No
+7,5,2,3,6,1,4,25,3500.5,Woman,Medium,Quaternary sector,Global North,No,Bachelor,No
+7,6,5,4,3,2,1,24,250.5,Man,Low,Tertiary sector,Global North,Yes,High School,No
+7,6,3,2,5,1,4,23,250.5,Man,Low,Students,Global North,No,Bachelor,No
+3,1,2,4,5,7,6,21,0,Woman,Low,Students,Global North,Yes,High School,No
+6,4,5,7,1,2,3,26,5000,Woman,High,Quaternary sector,Global North,Yes,Master,No
+6,7,5,4,2,1,3,21,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+4,6,2,1,3,5,7,19,1250.5,Man,Low,Students,Global North,Yes,High School,No
+6,5,3,4,1,2,7,20,250.5,Woman,Low,Students,Global North,No,High School,No
+2,4,7,3,6,1,5,25,250.5,Woman,Low,Students,Global North,No,High School,No
+3,5,6,7,1,4,2,22,3500.5,Man,Low,Students,Global North,Yes,High School,No
+5,4,2,3,6,1,7,25,3500.5,Woman,Medium,Students,Global North,No,High School,Yes
+7,2,3,1,4,5,6,30,3500.5,Man,Medium,Quaternary sector,Global South,No,Master,No
+2,3,5,4,1,6,7,23,0,Woman,Low,Students,Global North,Yes,High School,No
+6,3,2,5,1,4,7,28,3500.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+5,4,1,6,2,3,7,24,250.5,Woman,Low,Quaternary sector,Global North,Yes,High School,No
+6,5,2,3,7,1,4,29,1250.5,Woman,Medium,Quaternary sector,Global North,No,Master,No
+6,3,2,4,5,1,7,23,250.5,Woman,Low,Students,Global North,Yes,High School,No
+7,6,5,4,2,3,1,30,5000,Woman,Medium,Primary sector,Global North,Yes,Master,No
+6,5,7,1,2,3,4,22,1250.5,Woman,Low,Students,Global North,Yes,High School,No
+4,3,5,2,1,6,7,35,0,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+3,1,2,7,6,4,5,23,1250.5,Woman,Low,Students,Global North,No,High School,No
+4,3,5,2,1,6,7,35,0,Woman,Medium,Quaternary sector,Global North,Yes,Master,No
+3,1,2,7,6,4,5,23,1250.5,Woman,Low,Students,Global North,No,High School,No
+6,5,3,2,7,1,4,32,250.5,Man,Medium,Quaternary sector,Global South,No,Master,No
+1,3,2,4,7,6,5,23,1250.5,Woman,Low,Quaternary sector,Global North,Yes,Bachelor,No
+1,3,2,4,5,6,7,21,0,Woman,Low,Students,Global North,Yes,High School,No
+1,3,4,2,5,6,7,21,250.5,Woman,Low,Students,Global North,Yes,High School,No
+1,2,3,4,5,6,7,27,250.5,Man,Low,Students,Global North,Yes,High School,No
+5,3,7,4,1,2,6,22,250.5,Woman,Low,Students,Global North,Yes,Bachelor,No
+5,3,6,2,7,4,1,21,1250.5,Woman,Low,Students,Global North,Yes,High School,Yes
+1,2,4,3,7,6,5,21,1250.5,Man,Low,Students,Global North,No,High School,No
+3,6,5,1,2,4,7,36,1250.5,Woman,Medium,Quaternary sector,Global North,No,Bachelor,No
+3,2,4,5,1,6,7,25,250.5,Woman,Low,Students,Global North,No,Bachelor,No
+6,5,4,3,7,2,1,21,1250.5,Man,Low,Students,Global North,Yes,High School,No
+5,2,1,3,4,7,6,23,1250.5,Woman,Low,Quaternary sector,Global North,No,Bachelor,No
+5,2,1,6,7,4,3,21,1250.5,Man,Low,Students,Global North,Yes,High School,No
+3,2,1,7,5,4,6,23,0,Man,Low,Students,Global North,No,High School,No
+3,2,4,1,7,6,5,24,3500.5,Man,Medium,Students,Global North,Yes,High School,No
+6,3,1,7,4,5,2,24,1250.5,Man,Low,Students,Global North,Yes,High School,No
+7,5,3,4,6,2,1,33,5000,Woman,Medium,Quaternary sector,Global South,No,Master,Yes
+1,3,2,5,4,6,7,25,250.5,Woman,Medium,Quaternary sector,Global North,Yes,Master,No

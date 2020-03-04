@@ -156,7 +156,6 @@ class: middle
 [<img src="img/PlackettLuce.png" width="10%" style="float:left"/>](https://CRAN.R-project.org/package=PlackettLuce)
 [<img src="img/gosset.png" width="10%" style="float:left"/>](https://agrobioinfoservices.github.io/gosset/)
 [<img src="img/climmobtools.png" width="10%" style="float:left"/>](https://CRAN.R-project.org/package=ClimMobTools)
-[<img src="img/chirps.png" width="10%" style="float:left"/>](https://agrobioinfoservices.github.io/chirps/)
 [<img src="img/climatrends.png" width="10%" style="float:left"/>](https://CRAN.R-project.org/package=climatrends)
 
 ---
