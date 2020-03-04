@@ -224,3 +224,5 @@ coef(plt, log = F)
 worst_regret(plt)
 
 plot_nodes(plt)
+
+predict(plt)

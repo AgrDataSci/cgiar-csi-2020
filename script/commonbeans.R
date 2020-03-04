@@ -50,6 +50,8 @@ R <- rank_tricot(data = dt,
 head(R)
 tail(R)
 
+x <- R[1:length(R),,as.rankings=F]
+
 # We can check how these items (varieties are connected)
 # even with partial rankings, we can see that all varieties connect
 # together. This is due to the controlled randomisation performed 
@@ -187,6 +189,7 @@ print(e-b)
 
 # these are the cross-validation estimates from the forward selection
 print(f)
+f$raw$estimators
 
 # the best model is 
 model <- as.formula(f$raw$call)
@@ -205,6 +208,7 @@ predict(plt)
 
 coef(plt, log = FALSE)
 
+plot(plt)
 # we can also plot the nodes with error bars using 
 # gosset::plot_nodes()
 # unfortunately it does not construct the tree in a single plot

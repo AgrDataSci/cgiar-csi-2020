@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning with Metadata and Experimental Citizen Science in R"
+title: "Machine Learning with Meta-analysis and Experimental Citizen Science in R"
 author: "Kauê de Sousa"
 date: "`r format(Sys.Date())`"
 output:

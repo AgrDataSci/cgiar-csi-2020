@@ -85,4 +85,6 @@ plot(plt)
 
 worst_regret(plt)
 
+?forward
+
 
