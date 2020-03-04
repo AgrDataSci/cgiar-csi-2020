@@ -31,7 +31,12 @@ options(htmltools.dir.version = FALSE)
 * A case study with tricot (*triadic comparison of technologies*)
 
 --
-* Two case study with meta-analysis 
+
+* Meta-analysis on bread wheat
+
+--
+
+* Meta-analysis on social impact investments 
 
 ---
 # What is machine learning?
@@ -147,8 +152,13 @@ class: middle, inverse
 (**E**) A stable *rpart* is used for further analysis
 
 ---
-class: middle
-<img src="img/from-tree-to-map.png" width="100%" style="float:left"/>
+# Geospatial extrapolation with seasonal forecast
+
+<img src="img/from-tree-to-map.png" width="100%"/>
+
+.foot-note[
+[van Etten 2019b](https://doi.org/10.1073/pnas.1813720116)
+]
 
 ---
 class: middle
@@ -188,11 +198,11 @@ class: middle, inverse
 * Grain yield
 
 ---
-# Impact investment
+# Social impact investment
 
 * 865 observations
 
-* 7 investment options
+* Participants were asked to rank 7 investment options
 
 * Socio-economic variables
 
