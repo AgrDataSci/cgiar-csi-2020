@@ -22,14 +22,26 @@ source(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
 
 
 
+# ........................................................
+# ........................................................
+# Read data ####
+dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
+                      "cgiar-csi-2020/master/data/impact_invest.csv"),
+               stringsAsFactors = FALSE)
+
+head(dt)
+
+names(dt)
 
 
 
 # get rankings in a different dataframe
-R <- mydata[items]
+options <- grepl("rank_", names(dt))
+
+R <- dt[options]
 names(R) <- gsub("rank_","",names(R))
-R[R < 0] <- 0
-R[R > 7] <- 0
+
+R
 
 # also explanatory vars
 exp_var <- mydata[exp_var]

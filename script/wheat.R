@@ -26,10 +26,9 @@ source(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
 # ........................................................
 # ........................................................
 # Read data ####
-#dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
-#                       "cgiar-csi-2020/master/data/wheat_pvs.csv"),
-#               stringsAsFactors = FALSE)
-dt <- read.csv("data/wheat_pvs.csv", stringsAsFactors = FALSE)
+dt <- read.csv(paste0("https://raw.githubusercontent.com/agrobioinfoservices/",
+                       "cgiar-csi-2020/master/data/wheat_pvs.csv"),
+               stringsAsFactors = FALSE)
 
 head(dt)
 tail(dt)
@@ -135,7 +134,7 @@ plot_map(geoinput, c("lon", "lat"))
 # temp
 # names(temp) <- names(tp)
 
-temp <- read.csv("data/temperature.csv")
+temp <- read.csv("https://raw.githubusercontent.com/agrobioinfoservices/cgiar-csi-2020/master/data/temperature.csv")
 
 # Let's see the distribution of these variables
 # first we put it in a long format
